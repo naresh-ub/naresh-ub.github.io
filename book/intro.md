@@ -1,7 +1,5 @@
 (intro)=
 # Naresh Kumar Devulapally
-
----
 <!-- 
 ```{image} figures/naresh-ub.png
 ---
@@ -11,6 +9,11 @@ align: right
 ---
 ``` -->
 
+```{admonition} Seeking internships and collaborations
+:class: tip
+I am actively seeking research collaborations and industry internship opportunities (starting Summer 2025) for research in Computer Vision. Please reach out at [devulapa@buffalo.edu](mailto:devulapa@buffalo.edu) or [devulapally.phd@gmail.com](mailto:devulapally.phd@gmail.com) in case of such opportunities.
+```
+
 I am a PhD candidate (chair's fellow) at UB's CVML Lab in the Computer Science Department at University at Buffalo. My research is advised by [Dr. Vishnu Lokhande](https://vlokhande-ub.github.io).
 
 Before joining UB as a PhD candiate, I completed my Masters (Thesis) in CS at UB. My thesis, [Towards Generalizable and Robust Multimodal ML models](https://cse.buffalo.edu/tech-reports/2024-11.pdf) for Video Emotion Recognition is co-supervised of [Dr. Junsong Yuan](https://cse.buffalo.edu/~jsyuan/) and [Dr. Sreyasee Das Bhattacharjee](https://cse.buffalo.edu/~sreyasee/). During my masters at UB, my research was published at venues such as ACM Multimedia 2023, BigMM 2024, and ICME 2024. My research project PRIMAL (Privacy Preserving Multimodal Emotion Recognition in conversation) received a honorable mention at [Agrusa L. Student Innovation Competition 2022](https://engineering.buffalo.edu/computer-science-engineering/news-and-events/events/russell-l-agrusa-cse-student-innovation-competition/agrusa-competition-2022.html).
@@ -19,22 +22,22 @@ Before joining UB as a Master's student, I worked as a Data Scientist-III (for ~
 
 I received my B.Tech. from NIT Trichy, where my research was advised by Dr. Santhanavijayan.
 
-## **Publications**
+##### Publications
 
 ---
 
-### 2025
+###### 2025
 
 * [Your Text Encoder Can Be An Object-Level Watermarking Controller](publications/watermarking.md)
 
 
-## **Research Interests**
+##### Research Interests
 
 ---
 
 My research is focussed on Computer Vision, Machine Learning and Optimization. Specifically, my current research is focussed on watermarking AI generated content.
 
-## **Education**
+##### Education
 
 ---
 
@@ -44,15 +47,8 @@ My research is focussed on Computer Vision, Machine Learning and Optimization. S
 - **MS Thesis in Computer Science** (2022 - 2024) – *University at Buffalo, SUNY*
   - Thesis supervised by [Dr. Junsong Yuan](https://cse.buffalo.edu/~jsyuan/) and [Dr. Sreyasee Das Bhattacharjee](https://cse.buffalo.edu/~sreyasee/).
 
-## **Open to collaboration/internship opportunities**
-
 ---
 
-I am open to/actively seeking potential collaborations and industry internship opportunities (starting Fall 2024) for research in Computer Vision. Please reach out at [devulapa@buffalo.edu](mailto:devulapa@buffalo.edu) or [devulapally.phd@gmail.com](mailto:devulapally.phd@gmail.com) in case of such opportunities.
-
-## **Contact Information**
-
----
 📍 **301C Davis Hall, Buffalo NY, 14260**   
 ✉️ **Email:** [devulapa@buffalo.edu](mailto:devulapa@buffalo.edu)  
 
