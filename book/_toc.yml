@@ -5,6 +5,9 @@ parts:
   - caption: "My Publications"
     chapters:
       - file: publications/watermarking.md
+  - caption: Courses I taught at UB
+    chapters:
+    - file: some_content/text_and_code.ipynb
       # sections:
       # - file: some_content/text_and_code.ipynb
     # - file: exercises
