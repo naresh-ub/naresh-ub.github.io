@@ -2,7 +2,7 @@ title: Naresh Kumar Devulapally
 author: Naresh Devulapally
 
 execute:
-  execute_notebooks: "auto"  # Execute notebooks only if source has changed
+  execute_notebooks: "off"  # Execute notebooks only if source has changed
   # cache: "true"  # Enable caching of notebook outputse
 
 only_build_toc_files: false
