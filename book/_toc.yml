@@ -5,9 +5,14 @@ parts:
   - caption: "My Publications"
     chapters:
       - file: publications/watermarking.md
-  - caption: Courses I taught at UB
+      
+  # - caption: Courses I taught at UB
+  #   chapters:
+  #   - file: some_content/text_and_code.ipynb
+
+  - caption: My PhD Research Notes
     chapters:
-    - file: some_content/text_and_code.ipynb
+    - file: research_notes/diffusion.ipynb
       # sections:
       # - file: some_content/text_and_code.ipynb
     # - file: exercises

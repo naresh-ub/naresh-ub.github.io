@@ -4,7 +4,7 @@
   <style>
     .author-container {
       text-align: center;
-      font-family: "Times New Roman", Times, serif;
+      /* font-family: "Times New Roman", Times, serif; */
       /* background: white; */
       padding: 15px;
       width: fit-content;

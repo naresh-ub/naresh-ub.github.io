@@ -16,28 +16,42 @@ I am actively seeking research collaborations and industry internship opportunit
 
 I am a PhD candidate (chair's fellow) at UB's CVML Lab in the Computer Science Department at University at Buffalo. My research is advised by [Dr. Vishnu Lokhande](https://vlokhande-ub.github.io).
 
-Before joining UB as a PhD candiate, I completed my Masters (Thesis) in CS at UB. My thesis, [Towards Generalizable and Robust Multimodal ML models](https://cse.buffalo.edu/tech-reports/2024-11.pdf) for Video Emotion Recognition is co-supervised of [Dr. Junsong Yuan](https://cse.buffalo.edu/~jsyuan/) and [Dr. Sreyasee Das Bhattacharjee](https://cse.buffalo.edu/~sreyasee/). During my masters at UB, my research was published at venues such as ACM Multimedia 2023, BigMM 2024, and ICME 2024. My research project PRIMAL (Privacy Preserving Multimodal Emotion Recognition in conversation) received a honorable mention at [Agrusa L. Student Innovation Competition 2022](https://engineering.buffalo.edu/computer-science-engineering/news-and-events/events/russell-l-agrusa-cse-student-innovation-competition/agrusa-competition-2022.html).
+Before joining UB as a PhD candiate, I completed my Masters (Thesis) in CS at UB. My thesis, [Towards Generalizable and Robust Multimodal ML models](https://cse.buffalo.edu/tech-reports/2024-11.pdf) for Video Emotion Recognition is co-supervised of [Dr. Junsong Yuan](https://cse.buffalo.edu/~jsyuan/) and [Dr. Sreyasee Das Bhattacharjee](https://cse.buffalo.edu/~sreyasee/). During my masters at UB, my research was published at venues such as ACM Multimedia 2023, BigMM 2024, and ICME 2024. My research project PRIMAL (Privacy Preserving Multimodal Emotion Recognition in conversation) received a honorable mention at <a href="https://web.archive.org/web/20240624133953/https://engineering.buffalo.edu/computer-science-engineering/news-and-events/events/russell-l-agrusa-cse-student-innovation-competition/agrusa-competition-2022.html" target="_blank">Agrusa L. Student Innovation Competition 2022</a>.
 
 Before joining UB as a Master's student, I worked as a Data Scientist-III (for ~2.5 years). During this time, I led global-scale AI solutions for clients including Unilever, BOSCH, DOLE etc. I led the ideation and development of Trade Promotion Optimization at Carbynetech (India) which continues to generate ~$50k every year.
 
 I received my B.Tech. from NIT Trichy, where my research was advised by Dr. Santhanavijayan.
 
-##### Publications
-
----
-
-###### 2025
-
-* [Your Text Encoder Can Be An Object-Level Watermarking Controller](publications/watermarking.md)
-
-
-##### Research Interests
+## Research Interests
 
 ---
 
 My research is focussed on Computer Vision, Machine Learning and Optimization. Specifically, my current research is focussed on watermarking AI generated content.
 
-##### Education
+```{admonition} News and Updates
+:class: tip
+🎉 🎉 &nbsp; Some exciting news!
+```
+
+## Publications
+
+---
+
+### 2025
+
+<button class="button" disabled>Preprint</button>&nbsp; [Your Text Encoder Can Be An Object-Level Watermarking Controller](publications/watermarking.md)
+
+### 2024
+
+<button class="button-green" disabled>ICME 2024</button>&nbsp; [Adaptive Missing-Modality Emotion Recognition in conversations via Joint-Embedding](publications/watermarking.md)
+
+### 2023
+
+<button class="button-green" disabled>ACM MM 2023</button>&nbsp; [Multi-label Emotion Analysis in Conversation via Multimodal Knowledge Distillation](publications/watermarking.md)
+
+<button class="button-green" disabled>BigMM 2023</button>&nbsp; [AMuSE: Adaptive Multimodal Analysis for Speaker Emotion Recognition.](publications/watermarking.md)
+
+## Education
 
 ---
 
