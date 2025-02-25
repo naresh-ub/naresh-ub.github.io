@@ -12,18 +12,11 @@ parts:
 
   - caption: My PhD Research Notes
     chapters:
-    - file: research_notes/diffusion.ipynb
-      # sections:
-      # - file: some_content/text_and_code.ipynb
-    # - file: exercises
-    #   sections:
-    #   - file: exercises/001.md
-    #   - file: exercises/002.md
-    #   - file: exercises/003.md
-    #   - file: exercises/004.md
-    #   - file: exercises/005.md
-    #   - file: exercises/006.md
-    #   - file: exercises/summary
-    # - file: references.md
-    # - file: changelog.md
-    # - file: credits.md
+      - file: research_notes/diffusion.ipynb
+
+  - caption: My Graduate Course Notes
+    chapters:
+      - file: course_notes/courses.md
+      - file: course_notes/mth-412/intro.md
+        sections: 
+        - file : course_notes/mth-412/second.md
