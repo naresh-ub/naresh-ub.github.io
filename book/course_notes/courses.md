@@ -1,1 +1,1 @@
-# List of courses at UB
+# Courses taken at UB (as a student)

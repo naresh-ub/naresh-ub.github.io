@@ -5,10 +5,11 @@ parts:
   - caption: "My Publications"
     chapters:
       - file: publications/watermarking.md
-      
-  # - caption: Courses I taught at UB
-  #   chapters:
-  #   - file: some_content/text_and_code.ipynb
+
+  - caption: Courses I taught at UB
+    chapters:
+      - url: https://naresh-ub.github.io/cvip  # External link
+        title: "CSE 4/573 - Computer Vision and Image Processing"
 
   - caption: My PhD Research Notes
     chapters:
@@ -19,4 +20,6 @@ parts:
       - file: course_notes/courses.md
       - file: course_notes/mth-412/intro.md
         sections: 
-        - file : course_notes/mth-412/second.md
+        - file : course_notes/mth-412/prob-review.md
+  
+  
