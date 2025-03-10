@@ -35,12 +35,12 @@
 <!-- Author Names -->
 <div class="author-names">
     Naresh Kumar Devulapally<sup>1</sup> &nbsp;
-    Vishnu Suresh Lokhande<sup>1</sup> &nbsp;
     Mingzhen Huang<sup>1</sup> &nbsp;
-    <br>
     Shruti Agarwal<sup>2</sup> &nbsp;
+    <br>
     Vishal Asnani<sup>2</sup> &nbsp;
-    Siwei Lyu<sup>1</sup>
+    Siwei Lyu<sup>1</sup> &nbsp;
+    Vishnu Suresh Lokhande<sup>1</sup> &nbsp;
 </div>
 
 <!-- Affiliations -->
@@ -51,7 +51,7 @@
 
 <!-- Emails -->
 <div class="emails">
-    {devulapa, vishnulo, mhuang33, siweilyu}@buffalo.edu &nbsp;&nbsp;
+    {devulapa, mhuang33, siweilyu, vishnulo}@buffalo.edu &nbsp;&nbsp;
     {shragarw, vasnani}@adobe.com
 </div>
 </div>
@@ -72,7 +72,7 @@ align: center
     }
     .social-icons {
       text-align: center;
-      margin-top: 10px;
+      margin-top: -10px;
     }
     .social-icons a {
       text-decoration: none;
@@ -89,15 +89,9 @@ align: center
 </head>
 
 <div class="social-icons">
-    <a href="https://arxiv.org/" target="_blank" style="color: #B31B1B;">
-    <i class="fa-solid fa-file-pdf"></i>  ArXiv
-    </a>
-    <a href="https://github.com/" target="_blank" style="color: green;">
-    <i class="fa-brands fa-github"></i>  Code
-    </a>
-    <a href="https://slides.com/" target="_blank" style="color: #F48024;">
-    <i class="fa-solid fa-file-powerpoint"></i>  Slides
-    </a>
+    <a href="#" class="button">ArXiv</a>&nbsp;
+    <a href="#" class="button">Code</a>&nbsp;
+    <a href="#" class="button">Slides</a>&nbsp;
 </div>
 
 ## Abstract
