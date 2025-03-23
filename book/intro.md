@@ -30,7 +30,7 @@ My research is focussed on Computer Vision, Machine Learning and Optimization. S
 
 ```{admonition} News and Updates
 :class: tip
-🎉 🎉 &nbsp; Some exciting news!
+🎉 🎉 Course instructor for [CSE 573: Computer Vision and Image Processing](https://naresh-ub.github.io/cvip). Summer 2025, UB.
 ```
 
 ## Publications
@@ -43,13 +43,13 @@ My research is focussed on Computer Vision, Machine Learning and Optimization. S
 
 ### 2024
 
-<button class="button-green" disabled>ICME 2024</button>&nbsp; [Adaptive Missing-Modality Emotion Recognition in conversations via Joint-Embedding](publications/watermarking.md)
+<button class="button-green" disabled>ICME 2024</button>&nbsp; [Adaptive Missing-Modality Emotion Recognition in conversations via Joint-Embedding](publications/icme-24.md)
 
 ### 2023
 
-<button class="button-green" disabled>ACM MM 2023</button>&nbsp; [Multi-label Emotion Analysis in Conversation via Multimodal Knowledge Distillation](publications/watermarking.md)
+<button class="button-green" disabled>ACM MM 2023</button>&nbsp; [Multi-label Emotion Analysis in Conversation via Multimodal Knowledge Distillation](publications/acm-mm-23.md)
 
-<button class="button-green" disabled>BigMM 2023</button>&nbsp; [AMuSE: Adaptive Multimodal Analysis for Speaker Emotion Recognition.](publications/watermarking.md)
+<button class="button-green" disabled>BigMM 2023</button>&nbsp; [AMuSE: Adaptive Multimodal Analysis for Speaker Emotion Recognition.](publications/big-mm-23.md)
 
 ## Education
 

@@ -5,6 +5,7 @@ parts:
   - caption: "My Publications"
     chapters:
       - file: publications/watermarking.md
+      - file: publications/icme-24.md
       - file: publications/acm-mm-23.md
       - file: publications/big-mm-23.md
 
