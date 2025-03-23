@@ -1,4 +1,11 @@
-# Your Text Encoder Can Be An Object-Level Watermarking Controller
+# Multi-label Emotion Analysis in Conversation via Multimodal Knowledge Distillation
+
+```{admonition} Project details
+:class: dropdown
+| Category       | Status      |
+|----------------|-------------|
+| MS Thesis (2023) | Published at ACM MM 2023 |
+```
 
 <head>
   <style>
@@ -6,7 +13,7 @@
       text-align: center;
       /* font-family: "Times New Roman", Times, serif; */
       /* background: white; */
-      padding: 15px;
+      /* padding: 15px; */
       width: fit-content;
       margin: 20px auto;
       /* border: 2px solid black; */
@@ -15,7 +22,7 @@
     }
     .author-names {
       font-size: 20px;
-      font-weight: bold;
+      /* font-weight: bold; */
     }
     .author-names sup {
       font-size: 14px;
@@ -23,6 +30,7 @@
     .affiliations {
       font-size: 18px;
       margin-top: 5px;
+      font-weight: bold;
     }
     .emails {
       font-size: 16px;
@@ -35,28 +43,26 @@
 <!-- Author Names -->
 <div class="author-names">
     Naresh Kumar Devulapally<sup>1</sup> &nbsp;
-    Vishnu Suresh Lokhande<sup>1</sup> &nbsp;
-    Mingzhen Huang<sup>1</sup> &nbsp;
+    Sidharth Anand<sup>2</sup> &nbsp;
+    Sreyasee Das Bhattacharjee<sup>1</sup> &nbsp;
     <br>
-    Shruti Agarwal<sup>2</sup> &nbsp;
-    Vishal Asnani<sup>2</sup> &nbsp;
-    Siwei Lyu<sup>1</sup>
+    Junsong Yuan<sup>1</sup> &nbsp;
 </div>
 
 <!-- Affiliations -->
 <div class="affiliations">
     <sup>1</sup>University at Buffalo, SUNY &nbsp;&nbsp;
-    <sup>2</sup>Adobe Research
+    <sup>2</sup>BITS Pilani, Hyderabad
 </div>
 
 <!-- Emails -->
 <div class="emails">
-    {devulapa, vishnulo, mhuang33, siweilyu}@buffalo.edu &nbsp;&nbsp;
-    {shragarw, vasnani}@adobe.com
+    {devulapa, sreyasee, jsyuan}@buffalo.edu &nbsp;&nbsp;
+    {f20191203}@hyderabad.bits-pilani.ac.in
 </div>
 </div>
 
-```{figure} figures/watermarking_fig1.png
+```{figure} figures/acmmm-23-teaser.png
 ---
 width: 100%
 name: watermark_teaser
@@ -89,26 +95,30 @@ align: center
 </head>
 
 <div class="social-icons">
-    <a href="https://arxiv.org/" target="_blank" style="color: #B31B1B;">
-    <i class="fa-solid fa-file-pdf"></i>  ArXiv
-    </a>
-    <a href="https://github.com/" target="_blank" style="color: green;">
-    <i class="fa-brands fa-github"></i>  Code
-    </a>
-    <a href="https://slides.com/" target="_blank" style="color: #F48024;">
-    <i class="fa-solid fa-file-powerpoint"></i>  Slides
-    </a>
+    <a href="https://dl.acm.org/doi/10.1145/3581783.3612517" class="button">Paper</a>&nbsp;
+    <a href="https://github.com/neuralnaresh/multimodal-emotion-recognition" class="button">Code</a>&nbsp;
+    <!-- <a href="#" class="button">Slides</a>&nbsp; -->
 </div>
 
 ## Abstract
 
-Invisible watermarking of AI-generated images can help with copyright protection, enabling detection and identification of AI-generated media. In this work, we present a novel approach to watermark images of text-to-image Latent Diffusion Models (LDMs). By only fine-tuning text token embeddings $\mathcal{W}_*$, we enable watermarking in selected objects or parts of the image, offering greater flexibility compared to traditional whole-image watermarking. This method also leverages the text encoder’s compatibility across various LDMs, allowing plug-and-play integration for different LDM versions. Moreover, introducing the watermark early in the encoding stage improves robustness to adversarial perturbations in later stages of the pipeline. Our approach achieves $99\%$ bit accuracy with a $10^5 \times$ reduction in model parameters, enabling efficient watermarking with a throughput of $48$ bits.
+Evaluating speaker emotion in conversations is crucial for various applications requiring human-computer interaction. However, co-occurrences of multiple emotional states (e.g. ‘anger’ and ‘frustration’ may occur together or one may influence the occurrence of the other) and their dynamic evolution may vary dramatically due to the speaker’s internal (e.g., influence of their personalized socio-cultural-educational and demographic backgrounds) and external contexts. Thus far, the previous focus has been on evaluating only the dominant emotion observed in a speaker at a given time, which is susceptible to producing misleading classification decisions for difficult multi-labels during testing. In this work, we present Self-supervised Multi-Label Peer Collaborative Distillation (SeMuLPCD) Learning via an efficient Multimodal Transformer Network, in which complementary feedback from multiple mode-specific peer networks (e.g.transcript, audio, visual) are distilled into a single mode-ensembled fusion network for estimating multiple emotions simultaneously. The proposed Multimodal Distillation Loss calibrates the fusion network by minimizing the Kullback–Leibler divergence with the peer networks. Additionally, each peer network is conditioned using a self-supervised contrastive objective to improve the generalization across diverse socio-demographic speaker backgrounds. By enabling peer collaborative learning that allows each network to independently learn their mode-specific discriminative patterns, SeMUL-PCD is effective across different conversation environments. In particular, the model not only outperforms the current state-of-the-art models on several large-scale public datasets (e.g., MOSEI, EmoReact and ElderReact), but with around 17% improved weighted F1-score in the cross-dataset experimental settings. The model also demonstrates an impressive generalization ability across age and demography-diverse populations.
 
 ```yaml
-@misc{devulapallywatermarking,
-      title={Your Text Encoder Can Be An Object-Level Watermarking Controller}, 
-      author={Naresh Kumar Devulapally and Vishnu Suresh Lokhande and Mingzhen Huang and Shruti Agarwal and Vishal Asnani and Siwei Lyu},
-      year={2025},
-      url={https://naresh-ub.github.io/publications/watermarking}, 
+@inproceedings{10.1145/3581783.3612517,
+author = {Anand, Sidharth and Devulapally, Naresh Kumar and Bhattacharjee, Sreyasee Das and Yuan, Junsong},
+title = {Multi-label Emotion Analysis in Conversation via Multimodal Knowledge Distillation},
+year = {2023},
+isbn = {9798400701085},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3581783.3612517},
+doi = {10.1145/3581783.3612517},
+booktitle = {Proceedings of the 31st ACM International Conference on Multimedia},
+pages = {6090–6100},
+numpages = {11},
+keywords = {collaborative learning, emotion analysis, knowledge distillation, multi-label classification, transformer},
+location = {Ottawa ON, Canada},
+series = {MM '23}
 }
 ```

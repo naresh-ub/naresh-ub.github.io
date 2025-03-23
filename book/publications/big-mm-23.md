@@ -1,4 +1,11 @@
-# Your Text Encoder Can Be An Object-Level Watermarking Controller
+# AMuSE: Adaptive Multimodal Analysis for Speaker Emotion Recognition in Group Conversations
+
+```{admonition} Project details
+:class: dropdown
+| Category       | Status      |
+|----------------|-------------|
+| MS Thesis (2023) | Published at Big MM 2023 |
+```
 
 <head>
   <style>
@@ -6,7 +13,7 @@
       text-align: center;
       /* font-family: "Times New Roman", Times, serif; */
       /* background: white; */
-      padding: 15px;
+      /* padding: 15px; */
       width: fit-content;
       margin: 20px auto;
       /* border: 2px solid black; */
@@ -15,7 +22,7 @@
     }
     .author-names {
       font-size: 20px;
-      font-weight: bold;
+      /* font-weight: bold; */
     }
     .author-names sup {
       font-size: 14px;
@@ -23,6 +30,7 @@
     .affiliations {
       font-size: 18px;
       margin-top: 5px;
+      font-weight: bold;
     }
     .emails {
       font-size: 16px;
@@ -35,31 +43,29 @@
 <!-- Author Names -->
 <div class="author-names">
     Naresh Kumar Devulapally<sup>1</sup> &nbsp;
-    Vishnu Suresh Lokhande<sup>1</sup> &nbsp;
-    Mingzhen Huang<sup>1</sup> &nbsp;
+    Sidharth Anand<sup>2</sup> &nbsp;
+    Sreyasee Das Bhattacharjee<sup>1</sup> &nbsp;
     <br>
-    Shruti Agarwal<sup>2</sup> &nbsp;
-    Vishal Asnani<sup>2</sup> &nbsp;
-    Siwei Lyu<sup>1</sup>
+    Junsong Yuan<sup>1</sup> &nbsp;
 </div>
 
 <!-- Affiliations -->
 <div class="affiliations">
     <sup>1</sup>University at Buffalo, SUNY &nbsp;&nbsp;
-    <sup>2</sup>Adobe Research
+    <sup>2</sup>BITS Pilani, Hyderabad
 </div>
 
 <!-- Emails -->
 <div class="emails">
-    {devulapa, vishnulo, mhuang33, siweilyu}@buffalo.edu &nbsp;&nbsp;
-    {shragarw, vasnani}@adobe.com
+    {devulapa, sreyasee, jsyuan}@buffalo.edu &nbsp;&nbsp;
+    {f20191203}@hyderabad.bits-pilani.ac.in
 </div>
 </div>
 
-```{figure} figures/watermarking_fig1.png
+```{figure} figures/bigmm-23-teaser.png
 ---
-width: 100%
-name: watermark_teaser
+width: 70%
+name: bigmm_teaser
 align: center
 ---
 ```
@@ -89,26 +95,24 @@ align: center
 </head>
 
 <div class="social-icons">
-    <a href="https://arxiv.org/" target="_blank" style="color: #B31B1B;">
-    <i class="fa-solid fa-file-pdf"></i>  ArXiv
-    </a>
-    <a href="https://github.com/" target="_blank" style="color: green;">
-    <i class="fa-brands fa-github"></i>  Code
-    </a>
-    <a href="https://slides.com/" target="_blank" style="color: #F48024;">
-    <i class="fa-solid fa-file-powerpoint"></i>  Slides
-    </a>
+    <a href="https://ieeexplore.ieee.org/abstract/document/10411802" class="button">Paper</a>&nbsp;
+    <a href="https://github.com/neuralnaresh/multimodal-emotion-recognition" class="button">Code</a>&nbsp;
+    <!-- <a href="#" class="button">Slides</a>&nbsp; -->
 </div>
 
 ## Abstract
 
-Invisible watermarking of AI-generated images can help with copyright protection, enabling detection and identification of AI-generated media. In this work, we present a novel approach to watermark images of text-to-image Latent Diffusion Models (LDMs). By only fine-tuning text token embeddings $\mathcal{W}_*$, we enable watermarking in selected objects or parts of the image, offering greater flexibility compared to traditional whole-image watermarking. This method also leverages the text encoder’s compatibility across various LDMs, allowing plug-and-play integration for different LDM versions. Moreover, introducing the watermark early in the encoding stage improves robustness to adversarial perturbations in later stages of the pipeline. Our approach achieves $99\%$ bit accuracy with a $10^5 \times$ reduction in model parameters, enabling efficient watermarking with a throughput of $48$ bits.
+Analyzing individual emotions during group conversation is crucial in developing intelligent agents capable of natural human-machine interaction. While reliable emotion recognition techniques depend on different modalities (text, audio, video), the inherent heterogeneity between these modalities and the dynamic cross-modal interactions influenced by an individual’s unique behavioral patterns make the task of emotion recognition very challenging. This difficulty is compounded in group settings, where the emotion and its temporal evolution are not only influenced by the individual but also by external contexts like audience reaction and context of the ongoing conversation. To meet this challenge, we propose a Multimodal Attention Network (MAN) that captures cross-modal interactions at various levels of spatial abstraction by jointly learning its interactive bunch of mode-specific Peripheral and Central networks. The proposed MAN "injects" cross-modal attention via its Peripheral keyvalue pairs within each layer of a mode-specific Central query network. The resulting cross-attended mode-specific descriptors are then combined using an Adaptive Fusion (AF) technique that enables the model to integrate the discriminative and complementary mode-specific data patterns within an instance-specific multimodal descriptor. Given a dialogue represented by a sequence of utterances, the proposed AMuSE (Adaptive Multimodal Analysis for Speaker Emotion) model condenses both spatial (within-mode and within-utterance) and temporal (across-mode and across-utterances in the sequence) features into two dense descriptors: speaker-level and utterance-level. This helps not only in delivering better classification performance (3−5% improvement in Weighted-F1 and 5−7% improvement in Accuracy) in large-scale public datasets (MELD and IEMOCAP) but also helps the users in understanding the reasoning behind each emotion prediction made by the model via its Multimodal Explainability Visualization module.
 
 ```yaml
-@misc{devulapallywatermarking,
-      title={Your Text Encoder Can Be An Object-Level Watermarking Controller}, 
-      author={Naresh Kumar Devulapally and Vishnu Suresh Lokhande and Mingzhen Huang and Shruti Agarwal and Vishal Asnani and Siwei Lyu},
-      year={2025},
-      url={https://naresh-ub.github.io/publications/watermarking}, 
-}
+@INPROCEEDINGS{10411802,
+  author={Anand, Sidharth and Devulapally, Naresh Kumar and Das Bhattacharjee, Sreyasee and Yuan, Junsong and Chang, Yu-Ping},
+  booktitle={2023 IEEE Ninth Multimedia Big Data (BigMM)}, 
+  title={AMuSE: Adaptive Multimodal Analysis for Speaker Emotion Recognition in Group Conversations}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={40-47},
+  keywords={Emotion recognition;Adaptation models;Predictive models;Cognition;Sensors;Reliability;Task analysis;Emotion Recognition;Multimodal Sensing;Supervised Learning},
+  doi={10.1109/BigMM59094.2023.00013}}
 ```

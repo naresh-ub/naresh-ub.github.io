@@ -1,12 +1,19 @@
 # Your Text Encoder Can Be An Object-Level Watermarking Controller
 
+```{admonition} Project details
+:class: dropdown
+| Category       | Status      |
+|----------------|-------------|
+| Ph.D. Year 1 (2024) | Under Review |
+```
+
 <head>
   <style>
     .author-container {
       text-align: center;
       /* font-family: "Times New Roman", Times, serif; */
       /* background: white; */
-      padding: 15px;
+      /* padding: 15px; */
       width: fit-content;
       margin: 20px auto;
       /* border: 2px solid black; */
@@ -15,14 +22,16 @@
     }
     .author-names {
       font-size: 20px;
-      font-weight: bold;
+      /* font-weight: bold; */
     }
     .author-names sup {
       font-size: 14px;
+      padding-top: -10px;
     }
     .affiliations {
       font-size: 18px;
       margin-top: 5px;
+      font-weight: bold;
     }
     .emails {
       font-size: 16px;
@@ -56,7 +65,7 @@
 </div>
 </div>
 
-```{figure} figures/watermarking_fig1.png
+```{figure} figures/watermark_teaser.jpeg
 ---
 width: 100%
 name: watermark_teaser
@@ -89,9 +98,9 @@ align: center
 </head>
 
 <div class="social-icons">
-    <a href="#" class="button">ArXiv</a>&nbsp;
-    <a href="#" class="button">Code</a>&nbsp;
-    <a href="#" class="button">Slides</a>&nbsp;
+    <a href="https://arxiv.org/abs/2503.11945" class="button">ArXiv</a>&nbsp;
+    <a href="https://github.com/naresh-ub" class="button">Code</a>&nbsp;
+    <!-- <a href="#" class="button">Slides</a>&nbsp; -->
 </div>
 
 ## Abstract

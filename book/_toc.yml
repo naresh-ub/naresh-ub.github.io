@@ -5,21 +5,24 @@ parts:
   - caption: "My Publications"
     chapters:
       - file: publications/watermarking.md
+      - file: publications/acm-mm-23.md
+      - file: publications/big-mm-23.md
 
   - caption: "Courses I Taught at UB"
     chapters:
-      - url: https://naresh-ub.github.io/cvip  # External link
+      - url: https://naresh-ub.github.io/cvip
         title: "CSE 4/573 - Computer Vision and Image Processing"
 
   - caption: "My PhD Research Notes"
     chapters:
-      - file: research_notes/diffusion/intro.ipynb
-        sections: 
-          - file: research_notes/diffusion/fundamentals.ipynb
+      - file: research_notes/nns-to-attention/nns-seq2seq.ipynb
+        title: "NNs to Seq2Seq models"
+      - file: research_notes/diffusion/fundamentals.ipynb
+        title: "Diffusion Fundamentals"
 
-  - caption: "My Graduate Course Notes"
-    chapters:
-      - file: course_notes/courses.md
-      - file: course_notes/mth-412/intro.md
-        sections: 
-          - file: course_notes/mth-412/prob-review.md
+  # - caption: "My Graduate Course Notes"
+  #   chapters:
+  #     - file: course_notes/courses.md
+  #     - file: course_notes/mth-412/intro.md
+  #       sections: 
+  #         - file: course_notes/mth-412/prob-review.md
