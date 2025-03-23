@@ -111,7 +111,6 @@ Invisible watermarking of AI-generated images can help with copyright protection
 @misc{devulapallywatermarking,
       title={Your Text Encoder Can Be An Object-Level Watermarking Controller}, 
       author={Naresh Kumar Devulapally and Vishnu Suresh Lokhande and Mingzhen Huang and Shruti Agarwal and Vishal Asnani and Siwei Lyu},
-      year={2025},
-      url={https://naresh-ub.github.io/publications/watermarking}, 
+      year={2025}, 
 }
 ```
