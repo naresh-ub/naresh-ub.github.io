@@ -104,7 +104,7 @@ align: center
 
 Analyzing individual emotions during group conversation is crucial in developing intelligent agents capable of natural human-machine interaction. While reliable emotion recognition techniques depend on different modalities (text, audio, video), the inherent heterogeneity between these modalities and the dynamic cross-modal interactions influenced by an individual’s unique behavioral patterns make the task of emotion recognition very challenging. This difficulty is compounded in group settings, where the emotion and its temporal evolution are not only influenced by the individual but also by external contexts like audience reaction and context of the ongoing conversation. To meet this challenge, we propose a Multimodal Attention Network (MAN) that captures cross-modal interactions at various levels of spatial abstraction by jointly learning its interactive bunch of mode-specific Peripheral and Central networks. The proposed MAN "injects" cross-modal attention via its Peripheral keyvalue pairs within each layer of a mode-specific Central query network. The resulting cross-attended mode-specific descriptors are then combined using an Adaptive Fusion (AF) technique that enables the model to integrate the discriminative and complementary mode-specific data patterns within an instance-specific multimodal descriptor. Given a dialogue represented by a sequence of utterances, the proposed AMuSE (Adaptive Multimodal Analysis for Speaker Emotion) model condenses both spatial (within-mode and within-utterance) and temporal (across-mode and across-utterances in the sequence) features into two dense descriptors: speaker-level and utterance-level. This helps not only in delivering better classification performance (3−5% improvement in Weighted-F1 and 5−7% improvement in Accuracy) in large-scale public datasets (MELD and IEMOCAP) but also helps the users in understanding the reasoning behind each emotion prediction made by the model via its Multimodal Explainability Visualization module.
 
-```yaml
+<!-- ```yaml
 @INPROCEEDINGS{10411802,
   author={Anand, Sidharth and Devulapally, Naresh Kumar and Das Bhattacharjee, Sreyasee and Yuan, Junsong and Chang, Yu-Ping},
   booktitle={2023 IEEE Ninth Multimedia Big Data (BigMM)}, 
@@ -115,4 +115,4 @@ Analyzing individual emotions during group conversation is crucial in developing
   pages={40-47},
   keywords={Emotion recognition;Adaptation models;Predictive models;Cognition;Sensors;Reliability;Task analysis;Emotion Recognition;Multimodal Sensing;Supervised Learning},
   doi={10.1109/BigMM59094.2023.00013}}
-```
+``` -->

@@ -107,10 +107,10 @@ align: center
 
 Invisible watermarking of AI-generated images can help with copyright protection, enabling detection and identification of AI-generated media. In this work, we present a novel approach to watermark images of text-to-image Latent Diffusion Models (LDMs). By only fine-tuning text token embeddings $\mathcal{W}_*$, we enable watermarking in selected objects or parts of the image, offering greater flexibility compared to traditional whole-image watermarking. This method also leverages the text encoder’s compatibility across various LDMs, allowing plug-and-play integration for different LDM versions. Moreover, introducing the watermark early in the encoding stage improves robustness to adversarial perturbations in later stages of the pipeline. Our approach achieves $99\%$ bit accuracy with a $10^5 \times$ reduction in model parameters, enabling efficient watermarking with a throughput of $48$ bits.
 
-```yaml
+<!-- ```yaml
 @misc{devulapallywatermarking,
       title={Your Text Encoder Can Be An Object-Level Watermarking Controller}, 
       author={Naresh Kumar Devulapally and Vishnu Suresh Lokhande and Mingzhen Huang and Shruti Agarwal and Vishal Asnani and Siwei Lyu},
       year={2025}, 
 }
-```
+``` -->

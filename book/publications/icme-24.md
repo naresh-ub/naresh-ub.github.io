@@ -104,7 +104,7 @@ align: center
 
 Human emotion can be presented in different modes i.e., audio, video, and text. However, the contribution of each mode in exhibiting each emotion is not uniform. Furthermore, the availability of complete mode-specific details may not always be guaranteed in the test time. In this work, we propose AM^2-EmoJE, a model for Adaptive Missing-Modality Emotion Recognition in Conversation via Joint Embedding Learning model that is grounded on two-fold contributions: First, a query adaptive fusion that can automatically learn the relative importance of its mode-specific representations in a query-specific manner. By this the model aims to prioritize the mode-invariant spatial query details of the emotion patterns, while also retaining its mode-exclusive aspects within the learned multimodal query descriptor. Second the multimodal joint embedding learning module that explicitly addresses various missing modality scenarios in test-time. By this, the model learns to emphasize on the correlated patterns across modalities, which may help align the cross-attended mode-specific descriptors pairwise within a joint-embedding space and thereby compensate for missing modalities during inference. By leveraging the spatio-temporal details at the dialogue level, the proposed AM^2-EmoJE not only demonstrates superior performance compared to the best-performing state-of-the-art multimodal methods, by effectively leveraging body language in place of face expression, it also exhibits an enhanced privacy feature. By reporting around 2-5% improvement in the weighted-F1 score, the proposed multimodal joint embedding module facilitates an impressive performance gain in a variety of missing-modality query scenarios during test time.
 
-```yaml
+<!-- ```yaml
 @misc{devulapally2024am2emojeadaptivemissingmodalityemotion,
       title={AM^2-EmoJE: Adaptive Missing-Modality Emotion Recognition in Conversation via Joint Embedding Learning}, 
       author={Naresh Kumar Devulapally and Sidharth Anand and Sreyasee Das Bhattacharjee and Junsong Yuan},
@@ -114,4 +114,4 @@ Human emotion can be presented in different modes i.e., audio, video, and text. 
       primaryClass={cs.AI},
       url={https://arxiv.org/abs/2402.10921}, 
 }
-```
+``` -->
