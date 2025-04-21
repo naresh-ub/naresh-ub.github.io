@@ -2,24 +2,34 @@ format: jb-book
 root: intro.md
 
 parts:
-  - caption: "My Publications"
-    chapters:
-      - file: publications/watermarking.md
-      - file: publications/icme-24.md
-      - file: publications/acm-mm-23.md
-      - file: publications/big-mm-23.md
+  # - caption: "My Publications"
+  #   chapters:
+  #     - file: publications/watermarking.md
+  #       title: "(2024) Watermarking AI Generated Images"
+  #     - file: publications/icme-24.md
+  #       title: "(2024) Missing-Modality Emotion Recognition"
+  #     - file: publications/acm-mm-23.md
+  #       title: "(2023) Multi-Label Emotion Recognition"
+  #     - file: publications/big-mm-23.md
+  #       title: "(2023) Multimodal Emotion Recognition in Group Conversations"
 
-  - caption: "Courses I Taught at UB"
+  - caption: ""
+    chapters:
+      - file: publications.md
+
+  - caption: "Courses I teach at UB"
     chapters:
       - url: https://naresh-ub.github.io/cvip
         title: "CSE 4/573 - Computer Vision and Image Processing"
 
-  - caption: "My PhD Research Notes"
+  - caption: "Invited Guest Lectures"
     chapters:
-      - file: research_notes/nns-to-attention/nns-seq2seq.ipynb
-        title: "NNs to Seq2Seq models"
-      - file: research_notes/diffusion/fundamentals.ipynb
-        title: "Diffusion Fundamentals"
+      - file: guest_lectures/cse555-diffusion.ipynb
+        # sections:
+        # - file: research_notes/nns-to-attention/nns.ipynb
+        #   title: "Neural Networks"
+        # - file: research_notes/diffusion/fundamentals.ipynb
+          # title: "Diffusion Fundamentals"
 
   # - caption: "My Graduate Course Notes"
   #   chapters:

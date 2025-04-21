@@ -254,3 +254,106 @@ html[data-theme="dark"] .bd-content div.cell_output img {
     border: none !important;
     color: inherit !important;
 }
+
+.paper-entry {
+    display: flex;
+    align-items: flex-start;  /* <<< Ensures top alignment */
+    gap: 1rem;
+    margin: 2rem 0;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--entry-divider-color, #ddd);
+    font-family: "Source Sans 3", sans-serif;
+  }
+  
+  /* Square image that aligns properly */
+  .thumbnail {
+    width: 125px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0;
+    display: block;
+  }
+  
+  /* Make sure text block does not stretch weirdly */
+  .paper-content {
+    flex: 1;
+    display: block;  /* <<< Prevents centering */
+  }
+  
+  .paper-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-primary, #1a1a1a);
+    margin-bottom: 0.3rem;
+  }
+  
+  .paper-title a {
+    color: var(--link-color, #2F73C0);
+    text-decoration: none;
+  }
+  
+  .paper-title a:hover {
+    text-decoration: underline;
+  }
+
+  .paper-venue {
+    font-size: 1.0rem;
+    font-style: italic;
+    color: var(--text-secondary, #666);
+    margin-bottom: 0.4rem;
+  }
+  
+  .paper-authors {
+    font-size: 1.0rem;
+    color: var(--text-secondary, #444);
+    margin-bottom: 0.4rem;
+    line-height: 1.4;
+  }
+  
+  .paper-authors b {
+    color: var(--text-primary, #000);
+  }
+  
+  .corresponding {
+    font-weight: bold;
+    color: #dc3545;
+    margin-left: 2px;
+  }
+  
+  .paper-links a {
+    display: inline-block;
+    padding: 5px 12px;
+    margin: 4px 8px 0 0;
+    font-size: 0.95rem;
+    font-weight: 500;
+    text-decoration: none;
+    border: 2px solid var(--button-border, #2F73C0);
+    border-radius: 8px;
+    color: var(--button-border, #2F73C0);
+    background-color: transparent;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+  
+  .paper-links a:hover {
+    background-color: var(--button-border, #2F73C0);
+    color: white;
+  }
+  
+  /* Theme variables */
+  html[data-theme="dark"] {
+    --text-primary: #f1f1f1;
+    --text-secondary: #cccccc;
+    --button-border: #79b8ff;
+    --link-color: #79b8ff;
+    --entry-divider-color: #444;
+  }
+  
+  html[data-theme="light"] {
+    --text-primary: #1a1a1a;
+    --text-secondary: #444;
+    --button-border: #2F73C0;
+    --link-color: #2F73C0;
+    --entry-divider-color: #ddd;
+  }
