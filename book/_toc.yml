@@ -25,6 +25,7 @@ parts:
   - caption: "Invited Guest Lectures"
     chapters:
       - file: guest_lectures/cse555-diffusion.ipynb
+      - file: guest_lectures/cvip-573-cnns.ipynb
         # sections:
         # - file: research_notes/nns-to-attention/nns.ipynb
         #   title: "Neural Networks"
