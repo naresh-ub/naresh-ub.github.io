@@ -32,9 +32,9 @@ parts:
         # - file: research_notes/diffusion/fundamentals.ipynb
           # title: "Diffusion Fundamentals"
 
-  # - caption: "My Graduate Course Notes"
-  #   chapters:
-  #     - file: course_notes/courses.md
-  #     - file: course_notes/mth-412/intro.md
-  #       sections: 
-  #         - file: course_notes/mth-412/prob-review.md
+  - caption: "My OQE Preparation"
+    chapters:
+      - file: lec_notes/intro.md
+      - file: lec_notes/linear-alg/intro.md
+        sections: 
+          - file: lec_notes/linear-alg/lec1.ipynb

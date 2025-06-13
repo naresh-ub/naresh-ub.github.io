@@ -33,6 +33,7 @@ sphinx:
       launch_buttons:
         thebe: true
         colab_url: "https://colab.research.google.com"
+      collapse_navigation: True
     html_show_copyright: false
     html_last_updated_fmt: '%B %-d, %Y'
     html_static_path: ["figures"] # add folders that contain files that need to be included, such as the location of the logo(s)
