@@ -1,5 +1,26 @@
 ## Publications
 
+> Publications during **PhD** in CS (Computer Vision) at SUNY Buffalo.
+
+<div class="paper-entry">
+  <img src="figures/publications/acm-mm-25.jpeg" alt="Paper thumbnail" class="thumbnail">
+  <div class="paper-content">
+    <div class="paper-title">
+    <a href="">
+      Latent Diffusion Unlearning: Protecting against Unauthorized Personalization through Trajectory Shifted Perturbations
+    </a>
+    </div>
+    <div class="paper-authors">
+    <b>Naresh Kumar Devulapally</b><span class="corresponding">*</span>, Shruti Agarwal, Tejas Gokhale, Vishnu Suresh Lokhande </div>
+    <div class="paper-venue"><i>🎉 <b>Accepted at ACM Multimedia 2025</b> 🎉</i></div>
+    <div class="paper-links">
+      <a href="">ArXiv (Soon) </a>
+      <a href="https://github.com/naresh-ub">Code (Soon) </a>
+      <!-- <a href="#">Video</a> -->
+    </div>
+  </div>
+</div>
+
 <div class="paper-entry">
   <img src="figures/publications/watermarking.png" alt="Paper thumbnail" class="thumbnail">
   <div class="paper-content">
@@ -10,7 +31,7 @@
     </div>
     <div class="paper-authors">
     <b>Naresh Kumar Devulapally</b><span class="corresponding">*</span>, Mingzhen Huang, Vishal Asnani, Shruti Agarwal, Siwei Lyu, Vishnu Suresh Lokhande </div>
-    <div class="paper-venue"><i>Under Review</i></div>
+    <div class="paper-venue"><i>🎉 <b>Accepted at ICCV 2025</b> 🎉</i></div>
     <div class="paper-links">
       <a href="https://arxiv.org/abs/2503.11945">ArXiv</a>
       <a href="https://github.com/naresh-ub">Code</a>
@@ -18,6 +39,8 @@
     </div>
   </div>
 </div>
+
+> Publications during **MS** in CS at SUNY Buffalo.
 
 <div class="paper-entry">
   <img src="figures/publications/icme.jpg" alt="Paper thumbnail" class="thumbnail">
@@ -48,7 +71,7 @@
     </div>
     <div class="paper-authors">
     <b>Naresh Kumar Devulapally</b><span class="corresponding">*</span>, Sidharth Anand, Sreyasee Das Bhattacharjee, Junsong Yuan </div>
-    <div class="paper-venue"><i>Published at ACM MM 2023</i></div>
+    <div class="paper-venue"><i>Published at ACM Multimedia 2023</i></div>
     <div class="paper-links">
       <a href="https://dl.acm.org/doi/10.1145/3581783.3612517">Paper</a>
       <a href="https://github.com/neuralnaresh/multimodal-emotion-recognition">Code</a>
