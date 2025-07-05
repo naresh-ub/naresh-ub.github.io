@@ -11,7 +11,7 @@ align: right
 
 ```{admonition} Seeking internships and collaborations
 :class: tip
-I am actively seeking research collaborations and industry internship opportunities (starting Summer 2025) for research in Computer Vision. Please reach out at [devulapa@buffalo.edu](mailto:devulapa@buffalo.edu) or [devulapally.phd@gmail.com](mailto:devulapally.phd@gmail.com) in case of such opportunities.
+I am actively seeking research collaborations and industry internship/co-op opportunities (starting Fall 2025) for research in Computer Vision. Please reach out at [devulapa@buffalo.edu](mailto:devulapa@buffalo.edu) or [devulapally.phd@gmail.com](mailto:devulapally.phd@gmail.com) in case of such opportunities.
 ```
 
 I am a PhD candidate (chair's fellow) at UB's CVML Lab in the Computer Science Department at University at Buffalo. My research is advised by [Dr. Vishnu Lokhande](https://vlokhande-ub.github.io).
@@ -26,9 +26,30 @@ I received my B.Tech. from NIT Trichy, where my research was advised by Dr. Sant
 
 ---
 
-My research is focussed on Computer Vision, Machine Learning and Optimization. Specifically, my current research is focussed on Privacy, Content Authentication for AI generated content. My recent projects include **Watermarking AIGC, Crafting Unlearning Samples to counter personalization in Diffusion Models**.
+My research is focused on Computer Vision, Machine Learning and Optimization. Specifically, my current research is focused on Privacy, Content Authentication for AI generated content. My recent projects include **Watermarking AIGC, Crafting Unlearning Samples to counter personalization in Diffusion Models**.
 
 ## [Publications](publications.md)
+
+> Publications during **PhD** in CS (Computer Vision) at SUNY Buffalo.
+
+<div class="paper-entry">
+  <img src="figures/publications/acm-mm-25.jpeg" alt="Paper thumbnail" class="thumbnail">
+  <div class="paper-content">
+    <div class="paper-title">
+    <a href="">
+      Latent Diffusion Unlearning: Protecting against Unauthorized Personalization through Trajectory Shifted Perturbations
+    </a>
+    </div>
+    <div class="paper-authors">
+    <b>Naresh Kumar Devulapally</b><span class="corresponding">*</span>, Shruti Agarwal, Tejas Gokhale, Vishnu Suresh Lokhande </div>
+    <div class="paper-venue"><i>🎉 <b>Accepted at ACM Multimedia 2025</b> 🎉</i></div>
+    <div class="paper-links">
+      <a href="">ArXiv (Soon) </a>
+      <a href="https://github.com/naresh-ub">Code (Soon) </a>
+      <!-- <a href="#">Video</a> -->
+    </div>
+  </div>
+</div>
 
 <div class="paper-entry">
   <img src="figures/publications/watermarking.png" alt="Paper thumbnail" class="thumbnail">
@@ -40,7 +61,7 @@ My research is focussed on Computer Vision, Machine Learning and Optimization. S
     </div>
     <div class="paper-authors">
     <b>Naresh Kumar Devulapally</b><span class="corresponding">*</span>, Mingzhen Huang, Vishal Asnani, Shruti Agarwal, Siwei Lyu, Vishnu Suresh Lokhande </div>
-    <div class="paper-venue"><i>Under Review</i></div>
+    <div class="paper-venue"><i>🎉 <b>Accepted at ICCV 2025</b> 🎉</i></div>
     <div class="paper-links">
       <a href="https://arxiv.org/abs/2503.11945">ArXiv</a>
       <a href="https://github.com/naresh-ub">Code</a>
@@ -48,6 +69,8 @@ My research is focussed on Computer Vision, Machine Learning and Optimization. S
     </div>
   </div>
 </div>
+
+> Publications during **MS** in CS at SUNY Buffalo.
 
 <div class="paper-entry">
   <img src="figures/publications/icme.jpg" alt="Paper thumbnail" class="thumbnail">
@@ -78,7 +101,7 @@ My research is focussed on Computer Vision, Machine Learning and Optimization. S
     </div>
     <div class="paper-authors">
     <b>Naresh Kumar Devulapally</b><span class="corresponding">*</span>, Sidharth Anand, Sreyasee Das Bhattacharjee, Junsong Yuan </div>
-    <div class="paper-venue"><i>Published at ACM MM 2023</i></div>
+    <div class="paper-venue"><i>Published at ACM Multimedia 2023</i></div>
     <div class="paper-links">
       <a href="https://dl.acm.org/doi/10.1145/3581783.3612517">Paper</a>
       <a href="https://github.com/neuralnaresh/multimodal-emotion-recognition">Code</a>
@@ -105,6 +128,8 @@ My research is focussed on Computer Vision, Machine Learning and Optimization. S
     </div>
   </div>
 </div>
+
+
 
 
 
