@@ -42,7 +42,7 @@ My research is focused on Computer Vision, Machine Learning and Optimization. Sp
     </div>
     <div class="paper-authors">
     <b>Naresh Kumar Devulapally</b><span class="corresponding">*</span>, Shruti Agarwal, Tejas Gokhale, Vishnu Suresh Lokhande </div>
-    <div class="paper-venue"><i>🎉 <b>Accepted at ACM Multimedia 2025</b> 🎉</i></div>
+    <div class="paper-venue"><i><b>Accepted at ACM Multimedia 2025</b> 🎉</i></div>
     <div class="paper-links">
       <a href="">ArXiv (Soon) </a>
       <a href="https://github.com/naresh-ub">Code (Soon) </a>
@@ -61,7 +61,7 @@ My research is focused on Computer Vision, Machine Learning and Optimization. Sp
     </div>
     <div class="paper-authors">
     <b>Naresh Kumar Devulapally</b><span class="corresponding">*</span>, Mingzhen Huang, Vishal Asnani, Shruti Agarwal, Siwei Lyu, Vishnu Suresh Lokhande </div>
-    <div class="paper-venue"><i>🎉 <b>Accepted at ICCV 2025</b> 🎉</i></div>
+    <div class="paper-venue"><i><b>Accepted at ICCV 2025</b> 🎉</i></div>
     <div class="paper-links">
       <a href="https://arxiv.org/abs/2503.11945">ArXiv</a>
       <a href="https://github.com/naresh-ub">Code</a>
