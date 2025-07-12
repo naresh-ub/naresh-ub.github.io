@@ -17,24 +17,25 @@ parts:
     chapters:
       - file: publications.md
 
-  - caption: ""
-    chapters:
-      - file: oqe/summary.md
-        sections: 
-          - file: oqe/lin-alg.ipynb
-          - file: oqe/calculus.ipynb
-          - file: oqe/probability.ipynb
-          - file: oqe/nns.ipynb
-          - file: oqe/rnns.ipynb
-          - file: oqe/attn-before-transformer.ipynb
-          - file: oqe/transformers.ipynb
-          - file: oqe/llms.ipynb
-          - file: oqe/vaes.ipynb
-          - file: oqe/diffusion.ipynb
-          - file: oqe/paper-1-llada.ipynb
-          - file: oqe/paper-2.ipynb
-          - file: oqe/paper-3.ipynb
-          - file: oqe/oqe-slides.ipynb
+  # - caption: ""
+  #   chapters:
+  #     - file: oqe/summary.md
+  #       sections: 
+  #         - file: oqe/lin-alg.ipynb
+  #         - file: oqe/calculus.ipynb
+  #         - file: oqe/probability.ipynb
+  #         - file: oqe/nns.ipynb
+  #         - file: oqe/rnns.ipynb
+  #         - file: oqe/lstms.ipynb
+  #         - file: oqe/attn-before-transformer.ipynb
+  #         - file: oqe/transformers.ipynb
+  #         - file: oqe/llms.ipynb
+  #         - file: oqe/vaes.ipynb
+  #         - file: oqe/diffusion.ipynb
+  #         - file: oqe/paper-1-llada.ipynb
+  #         - file: oqe/paper-2.ipynb
+  #         - file: oqe/paper-3.ipynb
+  #         - file: oqe/oqe-slides.ipynb
 
   - caption: "Courses I teach at UB"
     chapters:
