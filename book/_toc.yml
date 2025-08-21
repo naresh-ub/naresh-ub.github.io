@@ -50,6 +50,13 @@ parts:
         # - file: research_notes/nns-to-attention/nns.ipynb
         #   title: "Neural Networks"
         # - file: research_notes/diffusion/fundamentals.ipynb
-          # title: "Diffusion Fundamentals"
+        #   title: "Diffusion Fundamentals"
+
+  - caption: "My Notes"
+    chapters:
+      - file: notes/research_notes/intro.md
+        sections:
+          - file: notes/research_notes/diff_calvin_luo.ipynb
+
 
   
