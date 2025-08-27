@@ -9,6 +9,33 @@
     height: auto;
 }
 
+.nav-links {
+  display: flex;
+  justify-content: center;  /* align links horizontally in center */
+  flex-wrap: wrap;          /* wrap on smaller screens */
+  gap: 0.5rem;              /* consistent spacing */
+  margin: 0.5rem 0;
+}
+
+.nav-links a {
+  display: inline-block;
+  padding: 5px 12px;
+  margin: 4px 8px 0 0;
+  font-size: 0.95rem;
+  font-weight: 500;
+  text-decoration: none;
+  border: 2px solid var(--button-border, #2F73C0);
+  border-radius: 8px;
+  color: var(--button-border, #2F73C0);
+  background-color: transparent;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.nav-links a:hover {
+  background-color: var(--button-border, #2F73C0);
+  color: white;
+}
+
 .button {
     display: inline-block;
     background-color: #2F73C0; /* Blue background */
@@ -165,6 +192,10 @@ div.highlight pre, div.highlight code, div.highlight-ipython3 pre {
 .CodeMirror pre, .CodeMirror-code {
     font-family: "Fira Code", monospace !important;
     font-size: 0.9em !important;
+}
+
+h1 {
+    text-align: center;
 }
 
 h1, h2, h3, h4, h6 {

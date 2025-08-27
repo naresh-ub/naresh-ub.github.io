@@ -1,5 +1,5 @@
 (intro)=
-# Naresh Kumar Devulapally
+<h1 style="text-align:center">Naresh Kumar Devulapally</h1>
 <!-- 
 ```{image} figures/naresh-ub.png
 ---
@@ -9,10 +9,18 @@ align: right
 ---
 ``` -->
 
+<div class="nav-links">
+  <a href="#">About Me</a>
+  <a href="#publications">My Research</a>
+  <a href="#teaching">My Teaching</a>
+  <a href="./research_notes/intro.html">Research Notes</a>
+</div>
+
 ```{admonition} Seeking internships and collaborations
 :class: tip
 I am actively seeking research collaborations and industry internship/co-op opportunities (starting Fall 2025) for research in Computer Vision. Please reach out at [devulapa@buffalo.edu](mailto:devulapa@buffalo.edu) or [devulapally.phd@gmail.com](mailto:devulapally.phd@gmail.com) in case of such opportunities.
 ```
+
 
 I am a PhD candidate (chair's fellow) at UB's CVML Lab in the Computer Science Department at University at Buffalo. My research is advised by [Dr. Vishnu Lokhande](https://vlokhande-ub.github.io).
 
@@ -22,15 +30,9 @@ Before joining UB as a Master's student, I worked as a Data Scientist-III (for ~
 
 I received my B.Tech. from NIT Trichy, where my research was advised by Dr. Santhanavijayan.
 
-## Research Interests
-
----
-
 My research is focused on Computer Vision, Machine Learning and Optimization. Specifically, my current research is focused on Privacy, Content Authentication for AI generated content. My recent projects include **Watermarking AIGC, Crafting Unlearning Samples to counter personalization in Diffusion Models**.
 
-## [Publications](publications.md)
-
-> Publications during **PhD** in CS (Computer Vision) at SUNY Buffalo.
+## [Publications](publications.html)
 
 <div class="paper-entry">
   <img src="figures/publications/acm-mm-25.jpeg" alt="Paper thumbnail" class="thumbnail">
@@ -69,8 +71,6 @@ My research is focused on Computer Vision, Machine Learning and Optimization. Sp
     </div>
   </div>
 </div>
-
-> Publications during **MS** in CS at SUNY Buffalo.
 
 <div class="paper-entry">
   <img src="figures/publications/icme.jpg" alt="Paper thumbnail" class="thumbnail">
@@ -130,7 +130,9 @@ My research is focused on Computer Vision, Machine Learning and Optimization. Sp
 </div>
 
 
+## Teaching
 
+something
 
 
 
@@ -172,8 +174,9 @@ My research is focused on Computer Vision, Machine Learning and Optimization. Sp
 
 ## Contact Details
 
-📍 **301C Davis Hall, Buffalo NY, 14260**   
-✉️ **Email:** [devulapa@buffalo.edu](mailto:devulapa@buffalo.edu)  
+📍 *301C Davis Hall, Buffalo NY, 14260*
+
+✉️ *Email:* [devulapa@buffalo.edu](mailto:devulapa@buffalo.edu)  
 
 <!-- ## **Links**
 --- -->

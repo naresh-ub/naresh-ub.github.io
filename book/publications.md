@@ -1,6 +1,11 @@
-## Publications
+# Publications
 
-> Publications during **PhD** in CS (Computer Vision) at SUNY Buffalo.
+<div class="nav-links">
+  <a href="./intro.html">About Me</a>
+  <a href="#">My Research</a>
+  <a href="./intro.html#teaching">My Teaching</a>
+  <a href="./research_notes/intro.html">Research Notes</a>
+</div>
 
 <div class="paper-entry">
   <img src="figures/publications/acm-mm-25.jpeg" alt="Paper thumbnail" class="thumbnail">
@@ -39,8 +44,6 @@
     </div>
   </div>
 </div>
-
-> Publications during **MS** in CS at SUNY Buffalo.
 
 <div class="paper-entry">
   <img src="figures/publications/icme.jpg" alt="Paper thumbnail" class="thumbnail">

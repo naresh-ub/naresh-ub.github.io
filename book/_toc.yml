@@ -52,11 +52,12 @@ parts:
         # - file: research_notes/diffusion/fundamentals.ipynb
         #   title: "Diffusion Fundamentals"
 
-  - caption: "My Notes"
+  - caption: "My Research Notes"
     chapters:
-      - file: notes/research_notes/intro.md
+      - file: research_notes/intro.md
+      - file: research_notes/calvin_luo_diff/intro.md
         sections:
-          - file: notes/research_notes/diff_calvin_luo.ipynb
+          - file: research_notes/calvin_luo_diff/intro_gen_ai.ipynb
 
 
   
