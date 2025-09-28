@@ -1,182 +1,55 @@
 (intro)=
-<h1 style="text-align:center">Naresh Kumar Devulapally</h1>
-<!-- 
-```{image} figures/naresh-ub.png
----
-width: 35%
-name: demoexample1
-align: right
----
-``` -->
+# Naresh Kumar Devulapally
 
-<div class="nav-links">
-  <a href="#">About Me</a>
-  <a href="#publications">My Research</a>
-  <a href="#teaching">My Teaching</a>
-  <a href="./research_notes/intro.html">Research Notes</a>
-</div>
+I am a PhD candidate (chair's fellow) at UB's CVML Lab in the Computer Science Department at University at Buffalo. My research is advised by [Dr. Vishnu Lokhande](https://vlokhande-ub.github.io). 
 
-```{admonition} Seeking internships and collaborations
+```{admonition} My Research
 :class: tip
-I am actively seeking research collaborations and industry internship/co-op opportunities (starting Fall 2025) for research in Computer Vision. Please reach out at [devulapa@buffalo.edu](mailto:devulapa@buffalo.edu) or [devulapally.phd@gmail.com](mailto:devulapally.phd@gmail.com) in case of such opportunities.
+My research focuses on **enhancing reliability, robustness and alignment in Generative AI models**. My goal is to pioneer research towards Responsible, Trustworthy AI models.
 ```
 
+My recent **_first-author_** projects listed below. See [publications](publications.md) for full list:
 
-I am a PhD candidate (chair's fellow) at UB's CVML Lab in the Computer Science Department at University at Buffalo. My research is advised by [Dr. Vishnu Lokhande](https://vlokhande-ub.github.io).
+- `In-generation Object-level Watermarking in Text-to-Image Diffusion Models.`
+  - (with: [Adobe Research](https://research.adobe.com/publication/your-text-encoder-can-be-an-object-level-watermarking-controller/), [Dr. Siwei Lyu](https://cse.buffalo.edu/~siweilyu/index.html)). **ICCV 2025** 🎉
+- `Unlearnable Samples: Protecting against Unauthorized Personalization.`
+  - (with: Adobe Research, [CVG at UMBC](https://www.tejasgokhale.com/#people)). **ACM MM 2025** 🎉
+- `Hallucination Mitigation in Diffusion Models.`
+  - (with: [Dr. David Doermann](https://cse.buffalo.edu/~doermann/index.html)). *(Under Review)*
 
-Before joining UB as a PhD candiate, I completed my Masters (Thesis) in CS at UB. My thesis, [Towards Generalizable and Robust Multimodal ML models](https://cse.buffalo.edu/tech-reports/2024-11.pdf) for Video Emotion Recognition is co-supervised of [Dr. Junsong Yuan](https://cse.buffalo.edu/~jsyuan/) and [Dr. Sreyasee Das Bhattacharjee](https://cse.buffalo.edu/~sreyasee/). During my masters at UB, my research was published at venues such as `ACM Multimedia 2023, BigMM 2024, and ICME 2024`. My research project PRIMAL (Privacy Preserving Multimodal Emotion Recognition in conversation) received a honorable mention at <a href="https://web.archive.org/web/20240624133953/https://engineering.buffalo.edu/computer-science-engineering/news-and-events/events/russell-l-agrusa-cse-student-innovation-competition/agrusa-competition-2022.html" target="_blank">Agrusa L. Student Innovation Competition 2022</a>.
+---
+
+**My collaborators**:
+
+<div style="display: flex; justify-content: center; align-items: center;">
+  <div style=" display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 10px; max-width: 500px; "> <img src="figures/images/adobe_horz_1.png" alt="Image 1" style="width:100%; border-radius:8px;"> <img src="figures/images/cvg_horz.png" alt="Image 2" style="width:100%; border-radius:8px;"> </div> </div>
+
+
+---
+
+Before joining UB as a PhD candidate, I completed my Masters (Thesis) in CS at UB. My thesis, [Towards Generalizable and Robust Multimodal ML models](https://cse.buffalo.edu/tech-reports/2024-11.pdf) for Video Emotion Recognition is co-supervised of [Dr. Junsong Yuan](https://cse.buffalo.edu/~jsyuan/) and [Dr. Sreyasee Das Bhattacharjee](https://cse.buffalo.edu/~sreyasee/). During my masters at UB, my research was published at venues such as `ACM Multimedia 2023, BigMM 2024, and ICME 2024`. My research project PRIMAL (Privacy Preserving Multimodal Emotion Recognition in conversation) received a honorable mention at <a href="https://web.archive.org/web/20240624133953/https://engineering.buffalo.edu/computer-science-engineering/news-and-events/events/russell-l-agrusa-cse-student-innovation-competition/agrusa-competition-2022.html" target="_blank">Agrusa L. Student Innovation Competition 2022</a>.
 
 Before joining UB as a Master's student, I worked as a Data Scientist-III (for ~2.5 years). During this time, I led global-scale AI solutions for clients including Unilever, BOSCH, DOLE etc. I led the ideation and development of Trade Promotion Optimization at Carbynetech (India) which continues to generate ~$50k every year.
 
-I received my B.Tech. from NIT Trichy, where my research was advised by Dr. Santhanavijayan.
+## My Teaching
 
-My research is focused on Computer Vision, Machine Learning and Optimization. Specifically, my current research is focused on Privacy, Content Authentication for AI generated content. My recent projects include **Watermarking AIGC, Crafting Unlearning Samples to counter personalization in Diffusion Models**.
-
-## [Publications](publications.html)
-
-<div class="paper-entry">
-  <img src="figures/publications/acm-mm-25.jpeg" alt="Paper thumbnail" class="thumbnail">
-  <div class="paper-content">
-    <div class="paper-title">
-    <a href="">
-      Latent Diffusion Unlearning: Protecting against Unauthorized Personalization through Trajectory Shifted Perturbations
-    </a>
-    </div>
-    <div class="paper-authors">
-    <b>Naresh Kumar Devulapally</b><span class="corresponding">*</span>, Shruti Agarwal, Tejas Gokhale, Vishnu Suresh Lokhande </div>
-    <div class="paper-venue"><i><b>Accepted at ACM Multimedia 2025</b> 🎉</i></div>
-    <div class="paper-links">
-      <a href="">ArXiv (Soon) </a>
-      <a href="https://github.com/naresh-ub">Code (Soon) </a>
-      <!-- <a href="#">Video</a> -->
-    </div>
-  </div>
-</div>
-
-<div class="paper-entry">
-  <img src="figures/publications/watermarking.png" alt="Paper thumbnail" class="thumbnail">
-  <div class="paper-content">
-    <div class="paper-title">
-    <a href="https://arxiv.org/abs/2503.11945">
-      Your Text Encoder Can Be An Object-Level Watermarking Controller
-    </a>
-    </div>
-    <div class="paper-authors">
-    <b>Naresh Kumar Devulapally</b><span class="corresponding">*</span>, Mingzhen Huang, Vishal Asnani, Shruti Agarwal, Siwei Lyu, Vishnu Suresh Lokhande </div>
-    <div class="paper-venue"><i><b>Accepted at ICCV 2025</b> 🎉</i></div>
-    <div class="paper-links">
-      <a href="https://arxiv.org/abs/2503.11945">ArXiv</a>
-      <a href="https://github.com/naresh-ub">Code</a>
-      <!-- <a href="#">Video</a> -->
-    </div>
-  </div>
-</div>
-
-<div class="paper-entry">
-  <img src="figures/publications/icme.jpg" alt="Paper thumbnail" class="thumbnail">
-  <div class="paper-content">
-    <div class="paper-title">
-    <a href="https://arxiv.org/abs/2402.10921">
-      Adaptive Missing-Modality Emotion Recognition in Conversations via Joint Embedding Learning
-    </a>
-    </div>
-    <div class="paper-authors">
-    <b>Naresh Kumar Devulapally</b><span class="corresponding">*</span>, Sidharth Anand, Sreyasee Das Bhattacharjee, Junsong Yuan </div>
-    <div class="paper-venue"><i>Accepted at ICME 2024</i></div>
-    <div class="paper-links">
-      <a href="https://arxiv.org/abs/2402.10921">Paper</a>
-      <a href="https://github.com/neuralnaresh/multimodal-emotion-recognition">Code</a>
-      <!-- <a href="#">Video</a> -->
-    </div>
-  </div>
-</div>
-
-<div class="paper-entry">
-  <img src="figures/publications/acm-mm-23.png" alt="Paper thumbnail" class="thumbnail">
-  <div class="paper-content">
-    <div class="paper-title">
-    <a href="https://dl.acm.org/doi/10.1145/3581783.3612517">
-      Multi-label Emotion Analysis in Conversation via Multimodal Knowledge Distillation
-    </a>
-    </div>
-    <div class="paper-authors">
-    <b>Naresh Kumar Devulapally</b><span class="corresponding">*</span>, Sidharth Anand, Sreyasee Das Bhattacharjee, Junsong Yuan </div>
-    <div class="paper-venue"><i>Published at ACM Multimedia 2023</i></div>
-    <div class="paper-links">
-      <a href="https://dl.acm.org/doi/10.1145/3581783.3612517">Paper</a>
-      <a href="https://github.com/neuralnaresh/multimodal-emotion-recognition">Code</a>
-      <!-- <a href="#">Video</a> -->
-    </div>
-  </div>
-</div>
-
-<div class="paper-entry">
-  <img src="figures/publications/bigmm-23-teaser.png" alt="Paper thumbnail" class="thumbnail">
-  <div class="paper-content">
-    <div class="paper-title">
-    <a href="https://ieeexplore.ieee.org/abstract/document/10411802">
-      AMuSE: Adaptive Multimodal Analysis for Speaker Emotion Recognition in Group Conversations
-    </a>
-    </div>
-    <div class="paper-authors">
-    <b>Naresh Kumar Devulapally</b><span class="corresponding">*</span>, Sidharth Anand, Sreyasee Das Bhattacharjee, Junsong Yuan </div>
-    <div class="paper-venue"><i>Published at BigMM 2023</i></div>
-    <div class="paper-links">
-      <a href="https://ieeexplore.ieee.org/abstract/document/10411802">Paper</a>
-      <a href="https://github.com/neuralnaresh/multimodal-emotion-recognition">Code</a>
-      <!-- <a href="#">Video</a> -->
-    </div>
-  </div>
-</div>
-
-
-## Teaching
-
-something
-
-
-
-
-<!-- ```{admonition} News and Updates
+```{admonition} ❤️ I Love Teaching. Period. ❤️
 :class: tip
-🎉 🎉 Course instructor for [CSE 573: Computer Vision and Image Processing](https://naresh-ub.github.io/cvip). Summer 2025, UB.
+
+My PhD is immensely motivated by my extreme passion for teaching. I aim to impart the knowledge that I received over to the next generation of researchers.
+
+- Check out my [RateMyProfessor Ratings](https://www.ratemyprofessors.com/professor/3113460).
 ```
 
-## Publications
+I have been fortunate to create:
 
----
-
-### 2025
-
-<button class="button" disabled>Preprint</button>&nbsp; [Your Text Encoder Can Be An Object-Level Watermarking Controller](publications/watermarking.md)
-
-### 2024
-
-<button class="button-green" disabled>ICME 2024</button>&nbsp; [Adaptive Missing-Modality Emotion Recognition in conversations via Joint-Embedding](publications/icme-24.md)
-
-### 2023
-
-<button class="button-green" disabled>ACM MM 2023</button>&nbsp; [Multi-label Emotion Analysis in Conversation via Multimodal Knowledge Distillation](publications/acm-mm-23.md)
-
-<button class="button-green" disabled>BigMM 2023</button>&nbsp; [AMuSE: Adaptive Multimodal Analysis for Speaker Emotion Recognition.](publications/big-mm-23.md)
-
-## Education
-
----
-
-- **Ph.D. in Computer Science** (2024 - Present) – *University at Buffalo, SUNY*
-  - Advised by [Vishnu Lokhande](https://vlokhande-ub.github.io)
-  - Chair's Fellowship at UB.
-- **MS Thesis in Computer Science** (2022 - 2024) – *University at Buffalo, SUNY*
-  - Thesis supervised by [Dr. Junsong Yuan](https://cse.buffalo.edu/~jsyuan/) and [Dr. Sreyasee Das Bhattacharjee](https://cse.buffalo.edu/~sreyasee/).
-
---- -->
+- [Computer Vision and Diffusion Models course at UB.](https://naresh-ub.github.io/cvip)
+- [Abstract Algebra for Deep Learning](#) (soon).
 
 ## Contact Details
 
-📍 *301C Davis Hall, Buffalo NY, 14260*
-
-✉️ *Email:* [devulapa@buffalo.edu](mailto:devulapa@buffalo.edu)  
+📍 **301C Davis Hall, Buffalo NY, 14260**   
+✉️ **Email:** [devulapa@buffalo.edu](mailto:devulapa@buffalo.edu)  
 
 <!-- ## **Links**
 --- -->
