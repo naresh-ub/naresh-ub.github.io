@@ -58,6 +58,7 @@ sphinx:
     - sphinx_iframes
     - sphinx_exercise
     - sphinx_named_colors
+    - sphinx_accessibility
     # - sphinxcontrib.mermaid
     # - sphinxcontrib.wavedrom
     # - sphinxcontrib.plantuml
