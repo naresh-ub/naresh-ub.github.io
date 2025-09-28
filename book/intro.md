@@ -5,7 +5,7 @@ I am a PhD candidate (chair's fellow) at UB's CVML Lab in the Computer Science D
 
 ```{admonition} My Research
 :class: tip
-My research focuses on **enhancing reliability, robustness and alignment in Generative AI models**. My goal is to pioneer research towards Responsible, Trustworthy AI models.
+My research focuses on **enhancing reliability, robustness and alignment in Generative AI models**. My goal is to build Responsible, Trustworthy AI models.
 ```
 
 My recent **_first-author_** projects listed below. See [publications](publications.md) for full list:
