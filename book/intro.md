@@ -52,7 +52,7 @@ My PhD is immensely motivated by my extreme passion for teaching. I aim to impar
 
 I have been fortunate to create:
 
-- [Computer Vision and Generative AI course at UB.](https://naresh-ub.github.io/cvip)
+- [Computer Vision and Generative AI course at UB.](https://naresh-ub.github.io/cvip) _(Summer 2025)._
 - [Abstract Algebra for Deep Learning](#) (soon).
 
 ## Contact Details
