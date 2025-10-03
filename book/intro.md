@@ -19,11 +19,11 @@ My research focuses on **enhancing reliability, robustness and alignment in Gene
 
 My recent **_first-author_** projects listed below. See [publications](publications.md) for full list:
 
-- `In-generation Object-level Watermarking in Text-to-Image Diffusion Models.`
+- [In-generation Object-level Watermarking in Text-to-Image Diffusion Models.](https://arxiv.org/abs/2503.11945)
   - (with: [Adobe Research](https://research.adobe.com/publication/your-text-encoder-can-be-an-object-level-watermarking-controller/), [Dr. Siwei Lyu](https://cse.buffalo.edu/~siweilyu/index.html)). **_Accepted at ICCV 2025_** 🎉
-- `Unlearnable Samples: Protecting against Unauthorized Personalization.`
+- [Unlearnable Samples: Protecting against Unauthorized Personalization.](#)
   - (with: Adobe Research, [CVG at UMBC](https://www.tejasgokhale.com/#people)). **_Accepted at ACM MM 2025_** 🎉
-- `Hallucination Mitigation in Diffusion Models.`
+- [Hallucination Mitigation in Diffusion Models.](#)
   - (with: [Dr. David Doermann](https://cse.buffalo.edu/~doermann/index.html)). *(Under Review)*
 
 ---
