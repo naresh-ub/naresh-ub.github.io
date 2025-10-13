@@ -21,7 +21,7 @@ My recent **_first-author_** projects listed below. See [publications](publicati
 
 - [In-generation Object-level Watermarking in Text-to-Image Diffusion Models.](https://arxiv.org/abs/2503.11945)
   - (with: [Adobe Research](https://research.adobe.com/publication/your-text-encoder-can-be-an-object-level-watermarking-controller/), [Dr. Siwei Lyu](https://cse.buffalo.edu/~siweilyu/index.html)). **_Accepted at ICCV 2025_** 🎉
-- [Unlearnable Samples: Protecting against Unauthorized Personalization.](#)
+- [Unlearnable Samples: Protecting against Unauthorized Personalization.](https://arxiv.org/abs/2510.03089)
   - (with: Adobe Research, [CVG at UMBC](https://www.tejasgokhale.com/#people)). **_Accepted at ACM MM 2025_** 🎉
 - [Hallucination Mitigation in Diffusion Models.](#)
   - (with: [Dr. David Doermann](https://cse.buffalo.edu/~doermann/index.html)). *(Under Review)*
@@ -31,7 +31,7 @@ My recent **_first-author_** projects listed below. See [publications](publicati
 **My collaborators**:
 
 <div style="display: flex; justify-content: center; align-items: center;">
-  <div style=" display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 10px; max-width: 500px; "> <img src="figures/images/adobe_horz_1.png" alt="Image 1" style="width:100%; border-radius:8px;"> <img src="figures/images/cvg_horz.png" alt="Image 2" style="width:100%; border-radius:8px;"> </div> </div>
+  <div style=" display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 10px; max-width: 500px; "> <img src="figures/images/adobe_logo.png" alt="Image 1" style="width:100%; border-radius:8px;"> <img src="figures/images/cvg_horz.png" alt="Image 2" style="width:100%; border-radius:8px;"> </div> </div>
 
 
 ---
@@ -53,7 +53,7 @@ My PhD is immensely motivated by my extreme passion for teaching. I aim to impar
 I have been fortunate to create:
 
 - [Computer Vision and Generative AI course at UB.](https://naresh-ub.github.io/cvip) _(Summer 2025)._
-- [Abstract Algebra for Deep Learning](#) (soon).
+- [Differential Equations and Diffusion Models](#) (soon).
 
 ## Contact Details
 
