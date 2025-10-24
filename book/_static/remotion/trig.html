@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css" />
+    <title>Trig Interactive</title>
+    <style>
+      /* No internal scrolling; height is content-driven */
+      html, body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden; /* <- critical */
+        background: transparent;
+      }
+      #root {
+        display: block;
+        /* don't force 100% height; let content define it */
+      }
+      *, *::before, *::after { box-sizing: border-box; }
+    </style>
+    <script type="module" crossorigin src="./assets/trig-DZ8Uz2D6.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/Latex-BtQZtI7T.js">
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <!-- Robust auto-resize: reports real content height to parent -->
+    <script>
+      (function () {
+        const target = document.getElementById("root");
+
+        let last = 0;
+        const measure = () => {
+          // Use bounding box of #root so margins don't collapse weirdly
+          const r = target?.getBoundingClientRect();
+          const h = Math.ceil((r ? r.height : 0) || document.body.offsetHeight || 0);
+          return h;
+        };
+
+        const send = () => {
+          const h = measure();
+          if (h && h !== last) {
+            last = h;
+            parent.postMessage({ type: "remotion:height", value: h }, "*");
+          }
+        };
+
+        // Initial + on visual/layout changes
+        window.addEventListener("load", send);
+        window.addEventListener("resize", send);
+
+        const ro = new ResizeObserver(send);
+        ro.observe(document.documentElement);
+        ro.observe(document.body);
+        if (target) ro.observe(target);
+
+        const mo = new MutationObserver(send);
+        mo.observe(document.documentElement, { childList: true, subtree: true, attributes: true });
+
+        // fonts/images settling
+        document.fonts?.ready?.then(send);
+        window.addEventListener("message", (e) => {
+          if (e.data && e.data.type === "remotion:get-height") send();
+        });
+
+        // small watchdog while first frames render
+        let ticks = 0;
+        const rafLoop = () => {
+          if (ticks++ < 30) { send(); requestAnimationFrame(rafLoop); }
+        };
+        requestAnimationFrame(rafLoop);
+      })();
+    </script>
+  </body>
+</html>
