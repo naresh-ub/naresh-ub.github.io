@@ -19,11 +19,8 @@ sphinx:
   config:
     html_js_files:
     - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js
-    - https://unpkg.com/thebe-lite@latest/dist/lib/thebe-lite.min.js
     thebe_config:
       use_thebe_lite: true
-      litePluginSettings:
-        pyodideUrl: "https://cdn.jsdelivr.net/pyodide/v0.29.0/full/pyodide.js"
       exclude_patterns: ["**/_*.yml", "**/*.md", "**/*.ipynb"]
       preexecute: ["thebe-init"] # Automatically execute cells with this tag
     html_theme_options:
@@ -70,6 +67,5 @@ sphinx:
 
 bibtex_bibfiles:
   - references.bib
-
 
 
