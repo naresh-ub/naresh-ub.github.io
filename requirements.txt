@@ -11,4 +11,4 @@ sphinx-accessibility
 requests
 
 # Now list the packages you want to download directly from GitHub
-git+https://github.com/naresh-ub/TeachBooks-Sphinx-Thebe@main
+git+https://github.com/naresh-ub/Sphinx-Thebe@main
