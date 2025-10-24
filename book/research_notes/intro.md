@@ -16,7 +16,7 @@ Notes coming very soon!
   <!-- Choose the height you want for the whole element (title + video + controls) -->
   <div style="position:relative;width:100%;height:clamp(420px, 70vh, 720px);">
     <iframe
-      src="./remotion/index.html"
+      src="./remotion/trig.html"
       title="Interactive Graph"
       allow="autoplay"
       loading="lazy"
