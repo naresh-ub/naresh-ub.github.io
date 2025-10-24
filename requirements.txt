@@ -11,4 +11,4 @@ sphinx-accessibility
 requests
 
 # Now list the packages you want to download directly from GitHub
-git+https://github.com/TeachBooks/Sphinx-Thebe@fix-issue-8
+git+https://github.com/TeachBooks/Sphinx-Thebe
