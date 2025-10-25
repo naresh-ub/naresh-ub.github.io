@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,viewport-fit=cover"
+    />
+    <title>Diffusion Interactive</title>
+    <style>
+      /* Make the iframe DOC fully transparent so the host page shows through */
+      html, body {
+        margin: 0;
+        padding: 0;
+        background: transparent !important;
+        color: inherit;              /* let the host define text color if desired */
+        overflow: hidden;            /* prevent inner scrollbars */
+      }
+      #root {
+        display: block;
+        background: transparent !important;
+      }
+      *, *::before, *::after { box-sizing: border-box; }
+    </style>
+    <script type="module" crossorigin src="./assets/diffusion_forward_image-8Evfdi7x.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/index-iUq02wVG.js">
+    <link rel="modulepreload" crossorigin href="./assets/mnist_eight-N517gTof.js">
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <!-- Your bundle entry -->
+
+    <!-- Height-auto script so the iframe matches content height -->
+    <script>
+      (function () {
+        const target = document.getElementById("root");
+
+        const measure = () => {
+          const r = target?.getBoundingClientRect();
+          return Math.ceil((r ? r.height : 0) || document.body.offsetHeight || 0);
+        };
+
+        let last = 0;
+        const send = () => {
+          const h = measure();
+          if (h && h !== last) {
+            last = h;
+            parent.postMessage({ type: "remotion:height", value: h }, "*");
+          }
+        };
+
+        window.addEventListener("load", send);
+        window.addEventListener("resize", send);
+
+        const ro = new ResizeObserver(send);
+        ro.observe(document.documentElement);
+        ro.observe(document.body);
+        if (target) ro.observe(target);
+
+        const mo = new MutationObserver(send);
+        mo.observe(document.documentElement, { childList: true, subtree: true, attributes: true });
+
+        document.fonts?.ready?.then(send);
+        window.addEventListener("message", (e) => {
+          if (e.data && e.data.type === "remotion:get-height") send();
+        });
+
+        let ticks = 0;
+        const raf = () => { if (ticks++ < 30) { send(); requestAnimationFrame(raf); } };
+        requestAnimationFrame(raf);
+      })();
+    </script>
+  </body>
+</html>

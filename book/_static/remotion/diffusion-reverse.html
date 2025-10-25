@@ -2,28 +2,38 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
-    <title>Jigsaw Puzzle</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,viewport-fit=cover"
+    />
+    <title>Reverse Diffusion (DDPM — oracle)</title>
     <style>
-      /* No internal scrolling; height comes from content for perfect embedding */
-      html, body { margin: 0; padding: 0; overflow: hidden; background: transparent; }
+      html, body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden; /* important: no inner scroll */
+        background: transparent; /* let parent page theme show through */
+      }
       #root { display: block; }
       *, *::before, *::after { box-sizing: border-box; }
     </style>
-    <script type="module" crossorigin src="./assets/jigsaw-D3WF1Exk.js"></script>
+    <script type="module" crossorigin src="./assets/diffusion_reverse-D_KSo5WB.js"></script>
     <link rel="modulepreload" crossorigin href="./assets/index-iUq02wVG.js">
-    <link rel="modulepreload" crossorigin href="./assets/mnist_eight-N517gTof.js">
   </head>
   <body>
     <div id="root"></div>
+    <!-- Your Vite/webpack entry for this page -->
 
+    <!-- Robust auto-resize handshake with parent -->
     <script>
-      // Post actual height to parent so an iframe can size itself exactly
       (function () {
         const target = document.getElementById("root");
         let last = 0;
-        const measure = () => Math.ceil(target?.getBoundingClientRect().height || 0);
+        const measure = () => {
+          const r = target?.getBoundingClientRect();
+          const h = Math.ceil((r ? r.height : 0) || document.body.offsetHeight || 0);
+          return h;
+        };
         const send = () => {
           const h = measure();
           if (h && h !== last) {
@@ -40,9 +50,12 @@
         const mo = new MutationObserver(send);
         mo.observe(document.documentElement, { childList: true, subtree: true, attributes: true });
         document.fonts?.ready?.then(send);
-        window.addEventListener("message", (e) => { if (e.data?.type === "remotion:get-height") send(); });
-        let ticks = 0; const raf = () => { if (ticks++ < 30) { send(); requestAnimationFrame(raf); } };
-        requestAnimationFrame(raf);
+        window.addEventListener("message", (e) => {
+          if (e.data && e.data.type === "remotion:get-height") send();
+        });
+        let ticks = 0;
+        const rafLoop = () => { if (ticks++ < 30) { send(); requestAnimationFrame(rafLoop); } };
+        requestAnimationFrame(rafLoop);
       })();
     </script>
   </body>
