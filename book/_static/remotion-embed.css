@@ -1,0 +1,48 @@
+/* book/_static/remotion-embed.css */
+
+/* Wrapper: center, clip, and ensure no bleed lines show */
+.remotion-embed-wrap {
+  max-width: 900px;
+  margin: 0 auto 1.5rem;
+  overflow: clip;              /* prevents 1px scrollbars and white seams */
+  border: 0;
+  box-shadow: none;
+  border-radius: 8px;
+  background: transparent;
+}
+
+/* Let browsers render native controls in the right theme */
+.remotion-embed-wrap,
+iframe.remotion-embed {
+  color-scheme: light dark;    /* enables dark UA controls when in dark theme */
+}
+
+/* Iframe: block element, no borders/outlines, no scrollbars */
+iframe.remotion-embed {
+  display: block;
+  width: 100%;
+  border: 0 !important;
+  outline: none !important;
+  background: transparent;     /* we’ll also set this inside the document */
+  aspect-ratio: 16 / 9;        /* placeholder until JS sets exact height */
+  min-height: 360px;
+
+  /* Hide scrollbars just in case */
+  overflow: clip;               /* modern */
+  scrollbar-width: none;        /* Firefox */
+}
+iframe.remotion-embed::-webkit-scrollbar { display: none; }
+
+/* --- Anti-seam fix for sub-pixel rounding on narrow widths ---
+   Slightly oversize and center so fractional widths can't expose
+   the page background as a thin vertical line. */
+@media (max-width: 900px) {
+  iframe.remotion-embed {
+    width: calc(100% + 2px);
+    margin-left: -1px;
+  }
+}
+
+/* Optional: if your site uses a dark page background, make the wrapper
+   inherit it so any tiny gap is not white. */
+html[data-theme="dark"] .remotion-embed-wrap { background: transparent; }

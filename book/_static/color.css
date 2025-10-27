@@ -442,3 +442,6 @@ html[data-theme="dark"] .bd-content div.cell_output img {
   background: transparent;
   overscroll-behavior: contain;
 }
+
+.remotion-embed-wrap { color-scheme: light dark; }
+html[data-theme="dark"] .remotion-embed-wrap { color-scheme: dark; }

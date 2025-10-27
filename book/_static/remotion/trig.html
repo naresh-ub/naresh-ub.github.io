@@ -5,49 +5,116 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css" />
     <title>Trig Interactive</title>
+
     <style>
-      /* No internal scrolling; height is content-driven */
+      /* Default to light; parent will override via postMessage */
+      html {
+        --theme: light;
+        color-scheme: light;            /* UA widgets default */
+      }
+      html[data-theme="dark"] {
+        --theme: dark;
+        color-scheme: dark;             /* UA widgets in dark */
+      }
+
+      /* No internal scrolling & transparent backdrop */
       html, body {
         margin: 0;
         padding: 0;
-        overflow: hidden; /* <- critical */
+        height: 100%;
+        overflow: hidden;
         background: transparent;
       }
-      #root {
-        display: block;
-        /* don't force 100% height; let content define it */
+
+      /* Edge guard to defeat sub-pixel seams on narrow widths */
+      .edge-guard {
+        width: calc(100% + 2px);
+        margin-left: -1px;
       }
+
+      #root { display: block; }
       *, *::before, *::after { box-sizing: border-box; }
+
+      /* Friendly defaults for your own controls inside iframe */
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --panel-bg: #0b0b0b;
+          --panel-fg: #eaeaea;
+          --ctrl-bg: #181818;
+          --ctrl-fg: #eaeaea;
+          --ctrl-border: #333;
+        }
+      }
+      @media (prefers-color-scheme: light) {
+        :root {
+          --panel-bg: #ffffff;
+          --panel-fg: #111111;
+          --ctrl-bg: #f6f6f6;
+          --ctrl-fg: #111111;
+          --ctrl-border: #cfcfcf;
+        }
+      }
+      /* If you give your toolbar a class="controls", it will pick these up */
+      .controls { background: var(--panel-bg); color: var(--panel-fg); }
+      select, button, input, input[type="range"] {
+        background: var(--ctrl-bg);
+        color: var(--ctrl-fg);
+        border: 1px solid var(--ctrl-border);
+        border-radius: 8px;
+      }
+
+      /* Native media widgets follow theme, don’t flash white */
+      video, audio { color-scheme: inherit; background: transparent; }
     </style>
     <script type="module" crossorigin src="./assets/trig-jA0CgOBm.js"></script>
     <link rel="modulepreload" crossorigin href="./assets/index-iUq02wVG.js">
     <link rel="modulepreload" crossorigin href="./assets/Latex-DhzvN9ye.js">
   </head>
-  <body>
-    <div id="root"></div>
 
-    <!-- Robust auto-resize: reports real content height to parent -->
+  <body>
+    <!-- Edge-guard wrapper -->
+    <div class="edge-guard">
+      <div id="root"></div>
+    </div>
+
+    <!-- Your app entry (unchanged path) -->
+
+    <!-- Theme sync + robust auto-resize -->
     <script>
       (function () {
-        const target = document.getElementById("root");
+        const docEl = document.documentElement;
+        // 1) Receive theme from parent and apply
+        function applyTheme(theme) {
+          if (theme === "dark") {
+            docEl.setAttribute("data-theme", "dark");
+            docEl.style.colorScheme = "dark";
+          } else {
+            docEl.setAttribute("data-theme", "light");
+            docEl.style.colorScheme = "light";
+          }
+        }
+        window.addEventListener("message", (e) => {
+          const d = e.data || {};
+          if (d.type === "embed:theme" && d.theme) applyTheme(d.theme);
+          if (d.type === "remotion:get-height") send();
+        });
 
+        // 2) Auto-resize
+        const target = document.getElementById("root");
         let last = 0;
         const measure = () => {
-          // Use bounding box of #root so margins don't collapse weirdly
           const r = target?.getBoundingClientRect();
           const h = Math.ceil((r ? r.height : 0) || document.body.offsetHeight || 0);
           return h;
         };
-
         const send = () => {
           const h = measure();
           if (h && h !== last) {
             last = h;
-            parent.postMessage({ type: "remotion:height", value: h }, "*");
+            try { parent.postMessage({ type: "remotion:height", value: h }, "*"); } catch (_) {}
           }
         };
 
-        // Initial + on visual/layout changes
         window.addEventListener("load", send);
         window.addEventListener("resize", send);
 
@@ -59,17 +126,11 @@
         const mo = new MutationObserver(send);
         mo.observe(document.documentElement, { childList: true, subtree: true, attributes: true });
 
-        // fonts/images settling
         document.fonts?.ready?.then(send);
-        window.addEventListener("message", (e) => {
-          if (e.data && e.data.type === "remotion:get-height") send();
-        });
 
-        // small watchdog while first frames render
+        // watchdog while first frames render
         let ticks = 0;
-        const rafLoop = () => {
-          if (ticks++ < 30) { send(); requestAnimationFrame(rafLoop); }
-        };
+        const rafLoop = () => { if (ticks++ < 30) { send(); requestAnimationFrame(rafLoop); } };
         requestAnimationFrame(rafLoop);
       })();
     </script>
