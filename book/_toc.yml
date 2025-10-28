@@ -46,7 +46,7 @@ parts:
     chapters:
       - file: guest_lectures/cse555-diffusion.ipynb
       - file: guest_lectures/cvip-573-cnns.ipynb
-      - file: guest_lectures/fall-25-diffusion-1.ipynb
+      - file: guest_lectures/fall-25-diffusion.ipynb
         # sections:
         # - file: research_notes/nns-to-attention/nns.ipynb
         #   title: "Neural Networks"
