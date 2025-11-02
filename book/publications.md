@@ -13,7 +13,7 @@
   <img src="figures/publications/acm-mm-25.jpeg" alt="Paper thumbnail" class="thumbnail">
   <div class="paper-content">
     <div class="paper-title">
-    <a href="https://arxiv.org/abs/2510.03089">
+    <a href="https://dl.acm.org/doi/10.1145/3746027.3755112">
       Latent Diffusion Unlearning: Protecting against Unauthorized Personalization through Trajectory Shifted Perturbations
     </a>
     </div>
@@ -21,8 +21,8 @@
     <b>Naresh Kumar Devulapally</b><span class="corresponding">*</span>, Shruti Agarwal, Tejas Gokhale, Vishnu Suresh Lokhande<span class="corresponding">*</span> </div>
     <div class="paper-venue"><i><b>Accepted at ACM Multimedia 2025</b> 🎉</i></div>
     <div class="paper-links">
-      <a href="https://arxiv.org/abs/2510.03089">ArXiv</a>
-      <a href="https://github.com/naresh-ub">Code (Soon) </a>
+      <a href="https://dl.acm.org/doi/10.1145/3746027.3755112">Paper</a>
+      <a href="https://github.com/naresh-ub">Code</a>
       <a href="https://slides.com/naresh-ub/unlearnable-samples">Slides</a>
       <!-- <a href="https://github.com/naresh-ub">Code (Soon) </a> -->
       <!-- <a href="#">Video</a> -->
@@ -34,7 +34,7 @@
   <img src="figures/publications/watermarking.png" alt="Paper thumbnail" class="thumbnail">
   <div class="paper-content">
     <div class="paper-title">
-    <a href="https://arxiv.org/abs/2503.11945">
+    <a href="https://openaccess.thecvf.com/content/ICCV2025/html/Devulapally_Your_Text_Encoder_Can_Be_An_Object-Level_Watermarking_Controller_ICCV_2025_paper.html">
       Your Text Encoder Can Be An Object-Level Watermarking Controller
     </a>
     </div>
@@ -42,9 +42,9 @@
     <b>Naresh Kumar Devulapally</b><span class="corresponding">*</span>, Mingzhen Huang, Vishal Asnani, Shruti Agarwal, Siwei Lyu, Vishnu Suresh Lokhande<span class="corresponding">*</span> </div>
     <div class="paper-venue"><i><b>Accepted at ICCV 2025</b> 🎉</i></div>
     <div class="paper-links">
-      <a href="https://arxiv.org/abs/2503.11945">ArXiv</a>
+      <a href="https://openaccess.thecvf.com/content/ICCV2025/html/Devulapally_Your_Text_Encoder_Can_Be_An_Object-Level_Watermarking_Controller_ICCV_2025_paper.html">Paper</a>
       <a href="https://github.com/naresh-ub">Code</a>
-      <a href="https://slides.com/naresh-ub/object-level-watermarking">Slides</a>
+      <a href="https://slides.com/naresh-ub/umbc-talk-watermarking">Slides</a>
       <a href="https://iccv.thecvf.com/media/PosterPDFs/ICCV%202025/1870.png?t=1759981503.377534">Poster</a>
       <!-- <a href="#">Video</a> -->
     </div>
