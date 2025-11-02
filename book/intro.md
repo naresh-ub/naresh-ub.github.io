@@ -42,7 +42,7 @@ Before joining UB as a Master's student, I worked as a Data Scientist-III (for ~
 
 ## My Teaching
 
-```{admonition} ❤️ I Love Teaching. Period. ❤️
+```{admonition} I Love Teaching!!!
 :class: tip
 
 My PhD is immensely motivated by my extreme passion for teaching. I aim to impart the knowledge that I received over to the next generation of researchers.
