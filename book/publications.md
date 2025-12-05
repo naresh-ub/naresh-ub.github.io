@@ -1,4 +1,4 @@
-# Publications
+# 📃 Publications
 
 <div class="nav-links">
   <a href="./intro.html">About Me</a>
@@ -7,7 +7,47 @@
   <a href="./research_notes/intro.html">Research Notes</a>
 </div>
 
-### First-author publications
+___
+
+<span class="corresponding">*</span> - Corresponding Author(s).
+
+<div class="paper-entry">
+  <img src="figures/publications/wacv_26.png" alt="Paper thumbnail" class="thumbnail">
+  <div class="paper-content">
+    <div class="paper-title">
+    <a href="">
+      Forget Less by Learning Together through Concept Consolidation
+    </a>
+    </div>
+    <div class="paper-authors">
+    Arjun Ramesh Kaushik<span class="corresponding">*</span>, <b>Naresh Kumar Devulapally</b>, Vishnu Suresh Lokhande, Nalini Ratha, Venugopal Govindaraju </div>
+    <div class="paper-venue"><i>The IEEE/CVF Winter Conference on Applications of Computer Vision (WACV 2026)</i></div>
+    <div class="paper-links">
+      <a href="">Paper (Soon) </a>
+      <a href="">Code (Soon)</a>
+      <!-- <a href="#">Video</a> -->
+    </div>
+  </div>
+</div>
+
+<div class="paper-entry">
+  <img src="figures/publications/arjun_hyperbolic.png" alt="Paper thumbnail" class="thumbnail">
+  <div class="paper-content">
+    <div class="paper-title">
+    <a href="">
+      Forget Less by Learning from Parents Through Hierarchical Relationships
+    </a>
+    </div>
+    <div class="paper-authors">
+    Arjun Ramesh Kaushik<span class="corresponding">*</span>, <b>Naresh Kumar Devulapally</b>, Vishnu Suresh Lokhande, Nalini Ratha, Venugopal Govindaraju </div>
+    <div class="paper-venue"><i>The 40th Annual AAAI Conference on Artificial Intelligence (AAAI 2026)</i></div>
+    <div class="paper-links">
+      <a href="">Paper (Soon) </a>
+      <a href="">Code (Soon)</a>
+      <!-- <a href="#">Video</a> -->
+    </div>
+  </div>
+</div>
 
 <div class="paper-entry">
   <img src="figures/publications/acm-mm-25.jpeg" alt="Paper thumbnail" class="thumbnail">
@@ -19,7 +59,7 @@
     </div>
     <div class="paper-authors">
     <b>Naresh Kumar Devulapally</b><span class="corresponding">*</span>, Shruti Agarwal, Tejas Gokhale, Vishnu Suresh Lokhande<span class="corresponding">*</span> </div>
-    <div class="paper-venue"><i><b>Accepted at ACM Multimedia 2025</b> 🎉</i></div>
+    <div class="paper-venue"><i>33rd ACM International Conference on Multimedia (ACM MM 2025)</i></div>
     <div class="paper-links">
       <a href="https://dl.acm.org/doi/10.1145/3746027.3755112">Paper</a>
       <a href="https://github.com/naresh-ub">Code</a>
@@ -40,7 +80,7 @@
     </div>
     <div class="paper-authors">
     <b>Naresh Kumar Devulapally</b><span class="corresponding">*</span>, Mingzhen Huang, Vishal Asnani, Shruti Agarwal, Siwei Lyu, Vishnu Suresh Lokhande<span class="corresponding">*</span> </div>
-    <div class="paper-venue"><i><b>Accepted at ICCV 2025</b> 🎉</i></div>
+    <div class="paper-venue"><i>IEEE/CVF International Conference on Computer Vision (ICCV 2025)</i></div>
     <div class="paper-links">
       <a href="https://openaccess.thecvf.com/content/ICCV2025/html/Devulapally_Your_Text_Encoder_Can_Be_An_Object-Level_Watermarking_Controller_ICCV_2025_paper.html">Paper</a>
       <a href="https://github.com/naresh-ub">Code</a>
@@ -61,7 +101,7 @@
     </div>
     <div class="paper-authors">
     <b>Naresh Kumar Devulapally</b><span class="corresponding">*</span>, Sidharth Anand, Sreyasee Das Bhattacharjee, Junsong Yuan </div>
-    <div class="paper-venue"><i>Accepted at ICME 2024</i></div>
+    <div class="paper-venue"><i>ICME 2024</i></div>
     <div class="paper-links">
       <a href="https://arxiv.org/abs/2402.10921">Paper</a>
       <a href="https://github.com/neuralnaresh/multimodal-emotion-recognition">Code</a>
@@ -80,7 +120,7 @@
     </div>
     <div class="paper-authors">
     <b>Naresh Kumar Devulapally</b><span class="corresponding">*</span>, Sidharth Anand, Sreyasee Das Bhattacharjee, Junsong Yuan </div>
-    <div class="paper-venue"><i>Published at ACM Multimedia 2023</i></div>
+    <div class="paper-venue"><i>31st ACM International Conference on Multimedia (ACM MM 2023)</i></div>
     <div class="paper-links">
       <a href="https://dl.acm.org/doi/10.1145/3581783.3612517">Paper</a>
       <a href="https://github.com/neuralnaresh/multimodal-emotion-recognition">Code</a>
@@ -99,50 +139,10 @@
     </div>
     <div class="paper-authors">
     <b>Naresh Kumar Devulapally</b><span class="corresponding">*</span>, Sidharth Anand, Sreyasee Das Bhattacharjee, Junsong Yuan </div>
-    <div class="paper-venue"><i>Published at BigMM 2023</i></div>
+    <div class="paper-venue"><i>BigMM 2023</i></div>
     <div class="paper-links">
       <a href="https://ieeexplore.ieee.org/abstract/document/10411802">Paper</a>
       <a href="https://github.com/neuralnaresh/multimodal-emotion-recognition">Code</a>
-      <!-- <a href="#">Video</a> -->
-    </div>
-  </div>
-</div>
-
-### Collaboration Papers
-
-<div class="paper-entry">
-  <img src="figures/publications/wacv_26.png" alt="Paper thumbnail" class="thumbnail">
-  <div class="paper-content">
-    <div class="paper-title">
-    <a href="">
-      Forget Less by Learning Together through Concept Consolidation
-    </a>
-    </div>
-    <div class="paper-authors">
-    Arjun Ramesh Kaushik<span class="corresponding">*</span>, <b>Naresh Kumar Devulapally</b>, Vishnu Suresh Lokhande, Nalini Ratha, Venugopal Govindaraju </div>
-    <div class="paper-venue"><i>Under Review</i></div>
-    <div class="paper-links">
-      <a href="">Paper (Soon) </a>
-      <a href="">Code (Soon)</a>
-      <!-- <a href="#">Video</a> -->
-    </div>
-  </div>
-</div>
-
-<div class="paper-entry">
-  <img src="figures/publications/arjun_hyperbolic.png" alt="Paper thumbnail" class="thumbnail">
-  <div class="paper-content">
-    <div class="paper-title">
-    <a href="">
-      Forget Less by Learning from Parents Through Hierarchical Relationships
-    </a>
-    </div>
-    <div class="paper-authors">
-    Arjun Ramesh Kaushik<span class="corresponding">*</span>, <b>Naresh Kumar Devulapally</b>, Vishnu Suresh Lokhande, Nalini Ratha, Venugopal Govindaraju </div>
-    <div class="paper-venue"><i>Under Review</i></div>
-    <div class="paper-links">
-      <a href="">Paper (Soon) </a>
-      <a href="">Code (Soon)</a>
       <!-- <a href="#">Video</a> -->
     </div>
   </div>
