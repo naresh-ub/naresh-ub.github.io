@@ -39,7 +39,7 @@ parts:
 
   - caption: "Courses I teach at UB"
     chapters:
-      - url: https://naresh-ub.github.io/cvip
+      - url: https://naresh-ub.github.io/cvip-summer25
         title: "CSE 4/573 - Computer Vision and Image Processing"
 
   - caption: "Invited Guest Lectures"
