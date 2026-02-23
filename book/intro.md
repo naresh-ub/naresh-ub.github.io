@@ -19,10 +19,13 @@ My research focuses on **enhancing reliability, robustness and alignment in Gene
 
 My recent **_first-author_** projects listed below. See [publications](publications.md) for full list:
 
+- [Token-to-Token Similarity Reduction in dLLMs for Edit-Friendly Hard Prompt Inversion.](#)
+  - (with: [Adobe Research](#)). **_<u>Accepted at CVPR 2026</u>_** 🎉
+
 - [In-generation Object-level Watermarking in Text-to-Image Diffusion Models.](https://openaccess.thecvf.com/content/ICCV2025/html/Devulapally_Your_Text_Encoder_Can_Be_An_Object-Level_Watermarking_Controller_ICCV_2025_paper.html)
-  - (with: [Adobe Research](https://research.adobe.com/publication/your-text-encoder-can-be-an-object-level-watermarking-controller/), [Dr. Siwei Lyu](https://arc.net/l/quote/zgjwmrzi)). **_Accepted at ICCV 2025_** 🎉
+  - (with: [Adobe Research](https://research.adobe.com/publication/your-text-encoder-can-be-an-object-level-watermarking-controller/), [Dr. Siwei Lyu](https://arc.net/l/quote/zgjwmrzi)). **_<u>Accepted at ICCV 2025</u>_** 🎉
 - [Unlearnable Samples: Protecting against Unauthorized Personalization.](https://dl.acm.org/doi/10.1145/3746027.3755112)
-  - (with: Adobe Research, [CVG at UMBC](https://www.tejasgokhale.com/#people)). **_Accepted at ACM MM 2025_** 🎉
+  - (with: Adobe Research, [CVG at UMBC](https://www.tejasgokhale.com/#people)). **_<u>Accepted at ACM MM 2025</u>_** 🎉
 - [Hallucination Mitigation in Diffusion Models.](#)
   - (with: [Dr. David Doermann](https://cse.buffalo.edu/~doermann/index.html)). *(Under Review)*
 
@@ -31,7 +34,15 @@ My recent **_first-author_** projects listed below. See [publications](publicati
 **My collaborators**:
 
 <div style="display: flex; justify-content: center; align-items: center;">
-  <div style=" display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 10px; max-width: 500px; "> <img src="figures/images/adobe_logo.png" alt="Image 1" style="width:100%; border-radius:8px;"> <img src="figures/images/cvg_horz.png" alt="Image 2" style="width:100%; border-radius:8px;"> </div> </div>
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 10px; max-width: 500px;">
+    <a href="https://contentauthenticity.org/" target="_blank" rel="noopener noreferrer">
+      <img src="figures/images/adobe_logo.png" alt="Adobe" style="width:100%; border-radius:8px;">
+    </a>
+    <a href="https://arc.net/l/quote/agrivvzx" target="_blank" rel="noopener noreferrer">
+      <img src="figures/images/cvg_horz.png" alt="CVG" style="width:100%; border-radius:8px;">
+    </a>
+  </div>
+</div>
 
 
 ---
@@ -52,7 +63,7 @@ My PhD is immensely motivated by my extreme passion for teaching. I aim to impar
 
 I have been fortunate to create:
 
-- [Computer Vision and Generative AI course at UB.](https://naresh-ub.github.io/cvip) _(Summer 2025)._
+- [Computer Vision and Generative AI course at UB.](https://naresh-ub.github.io/cvip-summer25) _(Summer 2025)._
 - [Differential Equations and Diffusion Models](#) (soon).
 
 ## Contact Details
