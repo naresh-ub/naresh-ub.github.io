@@ -2,69 +2,27 @@ format: jb-book
 root: intro.md
 
 parts:
-  # - caption: "My Publications"
-  #   chapters:
-  #     - file: publications/watermarking.md
-  #       title: "(2024) Watermarking AI Generated Images"
-  #     - file: publications/icme-24.md
-  #       title: "(2024) Missing-Modality Emotion Recognition"
-  #     - file: publications/acm-mm-23.md
-  #       title: "(2023) Multi-Label Emotion Recognition"
-  #     - file: publications/big-mm-23.md
-  #       title: "(2023) Multimodal Emotion Recognition in Group Conversations"
-
-  - caption: ""
+  - caption: "My Research"
     chapters:
       - file: publications.md
-
-  # - caption: ""
-  #   chapters:
-  #     - file: oqe/summary.md
-  #       sections: 
-  #         - file: oqe/lin-alg.ipynb
-  #         - file: oqe/calculus.ipynb
-  #         - file: oqe/probability.ipynb
-  #         - file: oqe/nns.ipynb
-  #         - file: oqe/rnns.ipynb
-  #         - file: oqe/lstms.ipynb
-  #         - file: oqe/attn-before-transformer.ipynb
-  #         - file: oqe/transformers.ipynb
-  #         - file: oqe/llms.ipynb
-  #         - file: oqe/vaes.ipynb
-  #         - file: oqe/diffusion.ipynb
-  #         - file: oqe/paper-1-llada.ipynb
-  #         - file: oqe/paper-2.ipynb
-  #         - file: oqe/paper-3.ipynb
-  #         - file: oqe/oqe-slides.ipynb
-
+        title: "Publications"
   - caption: "Courses I teach at UB"
     chapters:
+      - file: course_notes/my-teaching-philosophy.ipynb
+        title: "My Teaching Philosophy"
       - url: https://naresh-ub.github.io/cvip-summer25
         title: "CSE 4/573 - Computer Vision and Image Processing"
 
-  - caption: "Invited Guest Lectures"
+  - caption: "Invited Guest lectures"
     chapters:
-      - file: guest_lectures/cse555-diffusion.ipynb
-      - file: guest_lectures/cvip-573-cnns.ipynb
-      - file: guest_lectures/fall-25-diffusion.ipynb
-        # sections:
-        # - file: research_notes/nns-to-attention/nns.ipynb
-        #   title: "Neural Networks"
-        # - file: research_notes/diffusion/fundamentals.ipynb
-        #   title: "Diffusion Fundamentals"
+      - file: guest_lectures/spring_2026/intro.ipynb
+        title: "VAEs to Diffusion Models with Live Code"
+        sections:
+          - file: guest_lectures/spring_2026/lecture-1-essence-generative-ai.md
+          - file: guest_lectures/spring_2026/lecture-2-vae-elbo-derivation.ipynb
+          - file: guest_lectures/spring_2026/lecture-3-placeholder.md
+          - file: guest_lectures/spring_2026/lecture-4-placeholder.md
 
-  # - caption: "My Research Notes"
-  #   chapters:
-  #     - file: research_notes/intro.md
-  #     - file: research_notes/calvin_luo_diff/intro.md
-  #       sections:
-  #         - file: research_notes/calvin_luo_diff/intro_gen_ai.ipynb
-
-  # - caption: "My Research Notes"
-  #   chapters:
-  #     - file: research_notes/intro.md
-      # - file: research_notes/calvin_luo_diff/intro.md
-      # - file: research_notes/calvin_luo_diff/intro_gen_ai.ipynb
-
-
-  
+  - caption: "Research Notes"
+    chapters:
+      - file: research_notes/intro.ipynb

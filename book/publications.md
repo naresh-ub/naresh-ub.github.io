@@ -3,8 +3,8 @@
 <div class="nav-links">
   <a href="./intro.html">About Me</a>
   <a href="./publications.html">Publications</a>
-  <a href="./intro.html#my-teaching">My Teaching</a>
-  <!-- <a href="./research_notes/intro.html">Research Notes</a> -->
+  <a href="./course_notes/my-teaching-philosophy.html">My Teaching</a>
+  <a href="./research_notes/intro.html">Research Notes</a>
 </div>
 
 ___
@@ -168,5 +168,6 @@ ___
     </div>
   </div>
 </div>
+
 
 
