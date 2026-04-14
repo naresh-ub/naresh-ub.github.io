@@ -18,10 +18,11 @@ parts:
       - file: guest_lectures/spring_2026/intro.ipynb
         title: "VAEs to Diffusion Models with Live Code"
         sections:
-          - file: guest_lectures/spring_2026/lecture-1-essence-generative-ai.ipynb
-          - file: guest_lectures/spring_2026/lecture-2-vae-elbo-derivation.ipynb
-          - file: guest_lectures/spring_2026/lecture-3-diffusion-elbo-derivation.ipynb
-          - file: guest_lectures/spring_2026/lecture-4-latest-diffusion-architectures.ipynb
+          - file: guest_lectures/spring_2026/intro-gen-ai.ipynb
+          - file: guest_lectures/spring_2026/vae.ipynb
+          - file: guest_lectures/spring_2026/ddpm.ipynb
+          - file: guest_lectures/spring_2026/ddim.ipynb
+          - file: guest_lectures/spring_2026/ldm.ipynb
 
   - caption: "Research Notes"
     chapters:
