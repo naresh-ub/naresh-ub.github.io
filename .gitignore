@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+# Manim / generated assets
+book/media/
+slides/
+
 # Distribution / packaging
 .Python
 build/
